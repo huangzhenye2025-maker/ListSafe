@@ -1,0 +1,411 @@
+/* ListSafe - Content Script Styling */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+/* ===================================================
+   1. Floating Safety Health Widget (Bottom-Right)
+   =================================================== */
+.listsafe-floating-widget {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  z-index: 999999;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  box-sizing: border-box;
+  user-select: none;
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.listsafe-floating-widget * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.listsafe-widget-card {
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(226, 232, 240, 0.85);
+  box-shadow: 0 10px 25px -5px rgba(15, 23, 42, 0.12), 0 8px 10px -6px rgba(15, 23, 42, 0.08);
+  border-radius: 16px;
+  overflow: hidden;
+  width: 320px;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.listsafe-widget-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 30px -5px rgba(15, 23, 42, 0.16), 0 10px 12px -6px rgba(15, 23, 42, 0.1);
+}
+
+/* Header */
+.listsafe-widget-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  background: #f8fafc;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.listsafe-brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #0f172a;
+  letter-spacing: -0.01em;
+}
+
+.listsafe-shield-icon {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  background: #0f172a;
+  color: #ffffff;
+  font-size: 11px;
+}
+
+.listsafe-pro-pill {
+  font-size: 10px;
+  font-weight: 700;
+  background: linear-gradient(135deg, #6366f1, #8b5cf6);
+  color: #ffffff;
+  padding: 2px 6px;
+  border-radius: 9999px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.listsafe-widget-toggle {
+  background: transparent;
+  border: none;
+  color: #64748b;
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.15s ease, color 0.15s ease;
+}
+
+.listsafe-widget-toggle:hover {
+  background: #e2e8f0;
+  color: #0f172a;
+}
+
+/* Body & Score */
+.listsafe-widget-body {
+  padding: 16px;
+}
+
+.listsafe-score-row {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 12px;
+}
+
+.listsafe-gauge-wrapper {
+  position: relative;
+  width: 52px;
+  height: 52px;
+  flex-shrink: 0;
+}
+
+.listsafe-gauge-circle {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 800;
+  color: #ffffff;
+  transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.15);
+}
+
+.listsafe-gauge-circle.safe {
+  background: linear-gradient(135deg, #10b981, #059669);
+  box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35);
+}
+
+.listsafe-gauge-circle.warning {
+  background: linear-gradient(135deg, #f59e0b, #d97706);
+  box-shadow: 0 4px 12px rgba(245, 158, 11, 0.35);
+}
+
+.listsafe-gauge-circle.dangerous {
+  background: linear-gradient(135deg, #ef4444, #dc2626);
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.4);
+  animation: listsafe-pulse-danger 2s infinite ease-in-out;
+}
+
+@keyframes listsafe-pulse-danger {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.listsafe-score-info {
+  flex: 1;
+}
+
+.listsafe-status-headline {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 3px;
+  line-height: 1.2;
+}
+
+.listsafe-status-subtext {
+  font-size: 12px;
+  color: #64748b;
+  line-height: 1.3;
+}
+
+/* Risk Items Summary List */
+.listsafe-risks-container {
+  margin-top: 10px;
+  max-height: 140px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding-right: 2px;
+}
+
+.listsafe-risks-container::-webkit-scrollbar {
+  width: 4px;
+}
+
+.listsafe-risks-container::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+
+.listsafe-risk-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff1f2;
+  border: 1px solid #fecdd3;
+  padding: 6px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.listsafe-risk-item.medium {
+  background: #fffbeb;
+  border-color: #fde68a;
+}
+
+.listsafe-risk-name {
+  font-weight: 600;
+  color: #9f1239;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.listsafe-risk-item.medium .listsafe-risk-name {
+  color: #92400e;
+}
+
+.listsafe-risk-tag {
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background: #fda4af;
+  color: #881337;
+  padding: 1px 5px;
+  border-radius: 4px;
+}
+
+.listsafe-risk-item.medium .listsafe-risk-tag {
+  background: #fde047;
+  color: #713f12;
+}
+
+/* Actions */
+.listsafe-widget-actions {
+  margin-top: 12px;
+  display: flex;
+  gap: 8px;
+}
+
+.listsafe-btn-fix-all {
+  flex: 1;
+  background: #0f172a;
+  color: #ffffff;
+  border: none;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.listsafe-btn-fix-all:hover {
+  background: #1e293b;
+  transform: translateY(-1px);
+}
+
+.listsafe-btn-fix-all:active {
+  transform: translateY(0);
+}
+
+.listsafe-btn-fix-all:disabled {
+  background: #94a3b8;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Minimized Floating Button */
+.listsafe-minimized-bubble {
+  display: none;
+  background: #0f172a;
+  color: #ffffff;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  box-shadow: 0 8px 20px rgba(15, 23, 42, 0.25);
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  transition: transform 0.2s ease;
+}
+
+.listsafe-minimized-bubble:hover {
+  transform: scale(1.08);
+}
+
+.listsafe-badge-count {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  background: #ef4444;
+  color: #ffffff;
+  font-size: 10px;
+  font-weight: 700;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #ffffff;
+}
+
+.listsafe-floating-widget.minimized .listsafe-widget-card {
+  display: none;
+}
+
+.listsafe-floating-widget.minimized .listsafe-minimized-bubble {
+  display: flex;
+}
+
+
+/* ===================================================
+   2. In-Field Risk Warning Badges & Tooltips
+   =================================================== */
+.listsafe-field-warning-banner {
+  margin-top: 6px;
+  margin-bottom: 8px;
+  background: #ffffff;
+  border: 1px solid #fecdd3;
+  border-left: 4px solid #ef4444;
+  border-radius: 8px;
+  padding: 10px 14px;
+  font-family: 'Inter', system-ui, sans-serif;
+  box-shadow: 0 4px 12px rgba(239, 68, 68, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  animation: listsafe-slide-down 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+@keyframes listsafe-slide-down {
+  from { opacity: 0; transform: translateY(-6px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.listsafe-field-warning-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.listsafe-field-warning-title {
+  font-size: 12px;
+  font-weight: 700;
+  color: #be123c;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.listsafe-field-warning-desc {
+  font-size: 12px;
+  color: #475569;
+  line-height: 1.4;
+}
+
+.listsafe-suggestions-box {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  margin-top: 4px;
+}
+
+.listsafe-suggestion-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #64748b;
+}
+
+.listsafe-btn-safe-chip {
+  background: #f1f5f9;
+  border: 1px solid #cbd5e1;
+  color: #0f172a;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 3px 8px;
+  border-radius: 6px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  transition: all 0.15s ease;
+}
+
+.listsafe-btn-safe-chip:hover {
+  background: #e0f2fe;
+  border-color: #7dd3fc;
+  color: #0284c7;
+  transform: translateY(-1px);
+}
+
+.listsafe-btn-safe-chip:active {
+  transform: translateY(0);
+}
+
+.listsafe-chip-icon {
+  color: #10b981;
+  font-weight: 700;
+}

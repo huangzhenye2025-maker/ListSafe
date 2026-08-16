@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ListSafe - Etsy IP & Trademark Guard</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Header -->
+    <header class="app-header">
+      <div class="brand-group">
+        <div class="logo-shield">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L4 5V11.09C4 16.14 7.41 20.85 12 22C16.59 20.85 20 16.14 20 11.09V5L12 2Z" fill="url(#paint0_linear)" stroke="#38bdf8" stroke-width="1.5"/>
+            <path d="M9 12L11 14L15 10" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            <defs>
+              <linearGradient id="paint0_linear" x1="12" y1="2" x2="12" y2="22" gradientUnits="userSpaceOnUse">
+                <stop stop-color="#0284c7"/>
+                <stop offset="1" stop-color="#0369a1"/>
+              </linearGradient>
+            </defs>
+          </svg>
+        </div>
+        <div class="brand-text">
+          <h1><span data-i18n="appName">ListSafe</span> <span class="badge-tag" data-i18n="guardBadge">GUARD</span></h1>
+          <p class="brand-subtitle" data-i18n="appSubtitle">Etsy & Cross-border IP Shield</p>
+        </div>
+      </div>
+      <div class="header-right-controls">
+        <!-- Language Switcher Dropdown -->
+        <div class="lang-selector-wrapper">
+          <select id="lang-switcher" class="lang-select-dropdown" title="Change Language / 切换语言">
+            <option value="en">🇺🇸 EN</option>
+            <option value="zh-CN">🇨🇳 中文</option>
+            <option value="de">🇩🇪 DE</option>
+            <option value="fr">🇫🇷 FR</option>
+            <option value="es">🇪🇸 ES</option>
+            <option value="ja">🇯🇵 日本語</option>
+          </select>
+        </div>
+        <div class="header-status">
+          <span class="status-indicator active" id="header-status-indicator"></span>
+          <span class="pro-badge" id="pro-badge" data-i18n="proActive">PRO ACTIVE</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Navigation Tabs -->
+    <nav class="nav-tabs">
+      <button class="nav-btn active" data-tab="tab-health">
+        <span class="icon">🛡️</span> <span data-i18n="tabHealth">Health Scan</span>
+      </button>
+      <button class="nav-btn" data-tab="tab-search">
+        <span class="icon">🔍</span> <span data-i18n="tabSearch">IP Lookup</span>
+      </button>
+      <button class="nav-btn" data-tab="tab-pro">
+        <span class="icon">⚡</span> <span data-i18n="tabPro">Pro & Setup</span>
+      </button>
+    </nav>
+
+    <!-- Tab 1: Health Scan -->
+    <section class="tab-content active" id="tab-health">
+      <!-- Score Card -->
+      <div class="score-card">
+        <div class="gauge-box">
+          <div class="gauge-ring" id="gauge-ring">
+            <div class="gauge-inner">
+              <span class="gauge-number" id="gauge-score">100</span>
+              <span class="gauge-label" data-i18n="scoreLabel">SCORE</span>
+            </div>
+          </div>
+        </div>
+        <div class="score-details">
+          <div class="score-status-badge safe" id="score-status-badge" data-i18n="scoreSafe">100% Safe to Publish</div>
+          <div class="score-summary-text" id="score-summary-text" data-i18n="summarySafe">No trademark risks detected in active listing.</div>
+          <div class="score-metrics-row">
+            <div class="metric-chip"><strong id="metric-threats">0</strong> <span data-i18n="metricRisks">Risks</span></div>
+            <div class="metric-chip"><strong id="metric-tags">0/13</strong> <span data-i18n="metricTags">Tags</span></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Action Fix All Button -->
+      <div class="action-bar">
+        <button class="btn-primary" id="btn-popup-fix-all" disabled>
+          <span class="sparkle">✨</span> <span data-i18n="btnFixAll">Auto-Fix All with Safe Words</span>
+        </button>
+      </div>
+
+      <!-- Detected Threats Section -->
+      <div class="section-container">
+        <div class="section-header">
+          <h2 data-i18n="sectionThreats">Detected Trademark Risks</h2>
+          <span class="counter-badge" id="threats-counter">0 Risks</span>
+        </div>
+        <div class="threats-list" id="threats-list">
+          <div class="empty-state" id="threats-empty">
+            <div class="empty-icon">🛡️</div>
+            <p class="empty-title" data-i18n="emptyThreatsTitle">All Clear!</p>
+            <p class="empty-desc" data-i18n="emptyThreatsDesc">Your listing text is compliant and safe from DMCA strikes.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Etsy Tag Limit & Compliance Checker -->
+      <div class="section-container">
+        <div class="section-header">
+          <h2 data-i18n="sectionTagsInspector">Etsy Tags Inspector</h2>
+          <span class="sub-counter" id="tags-count-label">0 of 13 Used</span>
+        </div>
+        <div class="tags-inspector-box" id="tags-inspector-box">
+          <p class="empty-hint" data-i18n="tagsInspectorEmpty">Open an Etsy Listing page to inspect all 13 tags automatically.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tab 2: IP Lookup & Database Search -->
+    <section class="tab-content" id="tab-search">
+      <div class="search-bar-wrapper">
+        <div class="search-input-box">
+          <span class="search-icon">🔍</span>
+          <input type="text" id="ip-search-input" data-i18n-placeholder="searchPlaceholder" placeholder="Search trademark (e.g. 'Boy Mom', 'Barbie', 'Velcro')...">
+          <button class="clear-search-btn" id="btn-clear-search" style="display:none;">✕</button>
+        </div>
+        <div class="filter-row">
+          <select id="filter-class-select" class="filter-select">
+            <option value="" data-i18n="filterAllCategories">All Categories</option>
+            <option value="025" data-i18n="filterClass025">Class 025: Apparel & Shirts</option>
+            <option value="014" data-i18n="filterClass014">Class 014: Jewelry & Accessories</option>
+            <option value="028" data-i18n="filterClass028">Class 028: Toys, Games & Mugs</option>
+            <option value="021" data-i18n="filterClass021">Class 021: Housewares & Tumblers</option>
+            <option value="016" data-i18n="filterClass016">Class 016: Stickers & Paper Goods</option>
+          </select>
+          <select id="filter-risk-select" class="filter-select">
+            <option value="" data-i18n="filterAllRisks">All Risks</option>
+            <option value="critical" data-i18n="filterCritical">Critical</option>
+            <option value="high" data-i18n="filterHigh">High</option>
+            <option value="medium" data-i18n="filterMedium">Medium</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Search Results List -->
+      <div class="search-results-container" id="search-results-list">
+        <!-- Dynamically rendered -->
+      </div>
+    </section>
+
+    <!-- Tab 3: Pro & Setup -->
+    <section class="tab-content" id="tab-pro">
+      <!-- Pro Unlock Banner -->
+      <div class="pro-promo-card" id="pro-promo-card">
+        <div class="pro-card-header">
+          <div class="pro-sparkle-icon">👑</div>
+          <div>
+            <h3 data-i18n="proTitle">ListSafe Pro Protection</h3>
+            <p data-i18n="proDesc">Unlimited real-time scanning & 2026 daily USPTO sync</p>
+          </div>
+        </div>
+        <div class="pro-features-list">
+          <div class="pro-feat-item" data-i18n="proFeat1">✓ Unlimited automated listing scans & shop health score</div>
+          <div class="pro-feat-item" data-i18n="proFeat2">✓ 1-Click AI safe keyword substitution</div>
+          <div class="pro-feat-item" data-i18n="proFeat3">✓ Multi-store protection (Etsy, Shopify, Amazon Merch)</div>
+        </div>
+
+        <a href="https://pancake.waffo.ai/store/xmaker-studio-p7o0nfzy/product/PROD_1Rwhe7sFXn5oqvh6kPBfNI?type=subscription&currency=USD" target="_blank" class="btn-waffo-checkout" id="btn-waffo-checkout" data-i18n="btnGetPro">🚀 Get Pro License ($9.9/mo on Waffo) →</a>
+        
+        <div class="license-input-row" id="license-input-row">
+          <input type="text" id="input-license-key" data-i18n-placeholder="licensePlaceholder" placeholder="Enter License Key (e.g. LISTSAFE-PRO-2026)">
+          <button class="btn-activate" id="btn-activate-license" data-i18n="btnActivate">Activate</button>
+        </div>
+        <div class="license-message" id="license-feedback"></div>
+      </div>
+
+      <!-- Stats Summary -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <span class="stat-value" id="stat-scanned-count">0</span>
+          <span class="stat-name" data-i18n="statScanned">Listings Scanned</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-value highlight" id="stat-blocked-count">0</span>
+          <span class="stat-name" data-i18n="statBlocked">DMCA Risks Avoided</span>
+        </div>
+      </div>
+
+      <!-- Custom Whitelist Manager -->
+      <div class="section-container" style="margin-top:14px;">
+        <div class="section-header">
+          <h2 data-i18n="whitelistTitle">My Safe Whitelist</h2>
+        </div>
+        <p class="section-hint" data-i18n="whitelistHint">Add your own registered brand names to never flag them as errors.</p>
+        <div class="whitelist-input-box">
+          <input type="text" id="input-whitelist-word" data-i18n-placeholder="whitelistPlaceholder" placeholder="Add word (e.g. 'mybrand')...">
+          <button class="btn-add-whitelist" id="btn-add-whitelist" data-i18n="btnAdd">+ Add</button>
+        </div>
+        <div class="whitelist-tags-container" id="whitelist-tags-container">
+          <!-- Whitelist chips -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <span data-i18n="footerText">ListSafe v1.0.1 • E-Commerce IP Knowledge Base</span>
+      <p class="disclaimer-text" data-i18n="disclaimerText">Disclaimer: ListSafe is an automated reference tool and does not constitute legal advice.</p>
+    </footer>
+  </div>
+
+  <script src="../utils/i18n.js"></script>
+  <script src="popup.js"></script>
+</body>
+</html>

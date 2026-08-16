@@ -1,0 +1,73 @@
+{
+  "manifest_version": 3,
+  "name": "ListSafe - Etsy IP & Trademark Infringement Guard",
+  "version": "1.0.1",
+  "description": "Real-time Etsy & E-Commerce Listing Trademark Scanner, DMCA Risk Interceptor & Smart Safe Keyword Suggester.",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://*.etsy.com/*",
+    "https://*.shopify.com/*",
+    "https://*.myshopify.com/*",
+    "https://*.amazon.com/*",
+    "http://localhost/*",
+    "http://127.0.0.1/*"
+  ],
+  "background": {
+    "service_worker": "background/service-worker.js"
+  },
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "32": "icons/icon32.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icons/icon16.png",
+    "32": "icons/icon32.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://*.etsy.com/*",
+        "https://*.shopify.com/*",
+        "https://*.myshopify.com/*",
+        "https://*.amazon.com/*",
+        "http://localhost/*",
+        "http://127.0.0.1/*",
+        "file:///*"
+      ],
+      "js": [
+        "utils/i18n.js",
+        "utils/rule-engine.js",
+        "content/content.js"
+      ],
+      "css": [
+        "content/content.css"
+      ],
+      "run_at": "document_idle"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "data/trademark-database.json",
+        "utils/i18n.js",
+        "icons/icon.svg",
+        "icons/icon16.png",
+        "icons/icon32.png",
+        "icons/icon48.png",
+        "icons/icon128.png"
+      ],
+      "matches": ["http://localhost/*", "http://127.0.0.1/*"]
+    }
+  ]
+}

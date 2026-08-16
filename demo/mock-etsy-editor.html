@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ListSafe - Interactive Etsy Listing Simulation & Live Testing Environment</title>
+  <link rel="stylesheet" href="mock-editor.css">
+  <link rel="stylesheet" href="../content/content.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Top Demo Control Bar -->
+  <header class="demo-top-banner">
+    <div class="demo-banner-brand">
+      <h1>🛡️ <span data-i18n="demoTitle">ListSafe Guard</span> <span class="demo-badge-pill" data-i18n="demoSubtitle">Interactive Testing Sandbox</span></h1>
+    </div>
+    <div class="demo-controls-right">
+      <div class="demo-preset-controls">
+        <span class="demo-preset-label" data-i18n="demoPresetLabel">Test Case Presets:</span>
+        <button class="btn-preset danger" data-preset="mothersday" data-i18n="presetCase1">🚨 Case 1: Mother's Day Sweatshirt</button>
+        <button class="btn-preset danger" data-preset="popculture" data-i18n="presetCase2">🚨 Case 2: Stanley Cup & Swiftie</button>
+        <button class="btn-preset danger" data-preset="svgcraft" data-i18n="presetCase3">🚨 Case 3: Cricut & Jeep Grill SVG</button>
+        <button class="btn-preset safe" data-preset="safe" data-i18n="presetCase4">✅ Case 4: 100% Compliant</button>
+        <button class="btn-preset" data-preset="clear" data-i18n="presetClear">🗑️ Clear</button>
+      </div>
+
+      <!-- Language Selector -->
+      <select id="demo-lang-switcher" class="demo-lang-dropdown" title="Change Language / 切换语言">
+        <option value="en">🇺🇸 English</option>
+        <option value="zh-CN">🇨🇳 简体中文</option>
+        <option value="de">🇩🇪 Deutsch</option>
+        <option value="fr">🇫🇷 Français</option>
+        <option value="es">🇪🇸 Español</option>
+        <option value="ja">🇯🇵 日本語</option>
+      </select>
+    </div>
+  </header>
+
+  <!-- Mock Etsy Listing Editor Page Layout -->
+  <main class="editor-layout">
+    <div class="etsy-nav-bar">
+      <div class="etsy-title-group">
+        <h2 data-i18n="mockPageTitle">Create / Edit Etsy Listing</h2>
+        <p data-i18n="mockPageSub">Mock Etsy Shop Manager • Real-time Protection Active</p>
+      </div>
+      <div class="etsy-header-actions">
+        <button class="btn-etsy-secondary" data-i18n="btnCancel">Cancel</button>
+        <button class="btn-etsy-secondary" data-i18n="btnSaveDraft">Save as Draft</button>
+        <button class="btn-etsy-primary" data-i18n="btnPublish">Publish Listing</button>
+      </div>
+    </div>
+
+    <!-- Panel 1: About & Title -->
+    <section class="editor-panel">
+      <div class="panel-header">
+        <h3 data-i18n="panelDetails">Listing Details</h3>
+        <p data-i18n="panelDetailsSub">Tell the world all about your item and why they'll love it.</p>
+      </div>
+
+      <!-- Title Form Group -->
+      <div class="form-group">
+        <div class="form-label-row">
+          <label class="form-label" for="title" data-i18n="labelTitle">Title *</label>
+          <span class="char-counter" id="title-char-count">0/140</span>
+        </div>
+        <input 
+          type="text" 
+          id="title" 
+          name="title" 
+          class="input-text" 
+          placeholder="Include keywords that buyers would use to search for this item."
+          autocomplete="off"
+        >
+        <p class="field-hint" data-i18n="titleTip">Tip: Avoid trademarked phrases like "Boy Mom", "Mama Bear", "Onesie", or "Super Bowl".</p>
+      </div>
+
+      <!-- Category Select -->
+      <div class="form-group">
+        <label class="form-label" data-i18n="labelCategory">Category</label>
+        <select class="input-text" style="max-width: 340px;">
+          <option>Clothing & Shoes > Women's Clothing > Hoodies & Sweatshirts</option>
+          <option>Home & Living > Kitchen & Dining > Drinkware > Tumblers</option>
+          <option>Craft Supplies & Tools > Digital Prints > Cutting Files & SVG</option>
+          <option>Jewelry > Necklaces > Pendants</option>
+        </select>
+      </div>
+    </section>
+
+    <!-- Panel 2: Tags & Keywords -->
+    <section class="editor-panel">
+      <div class="panel-header">
+        <h3 data-i18n="panelTags">Keywords & Tags (13 Max)</h3>
+        <p data-i18n="panelTagsSub">Tags help shoppers find your listing via search. Up to 13 tags, max 20 characters each.</p>
+      </div>
+
+      <div class="form-group">
+        <div class="form-label-row">
+          <label class="form-label" for="tags" data-i18n="labelTags">Tags (comma-separated)</label>
+        </div>
+        <input 
+          type="text" 
+          id="tags" 
+          name="tags" 
+          class="input-text" 
+          placeholder="e.g. boy mom, mama bear, onesie, cute gift..."
+          autocomplete="off"
+        >
+        <div class="tags-chips-display" id="tags-chips-display"></div>
+      </div>
+    </section>
+
+    <!-- Panel 3: Description -->
+    <section class="editor-panel">
+      <div class="panel-header">
+        <h3 data-i18n="panelDesc">Description</h3>
+        <p data-i18n="panelDescSub">Describe what makes your item special, materials used, sizing and care instructions.</p>
+      </div>
+
+      <div class="form-group">
+        <label class="form-label" for="description" data-i18n="labelDesc">Item Description</label>
+        <textarea 
+          id="description" 
+          name="description" 
+          class="input-textarea" 
+          placeholder="Share the story behind your creation..."
+        ></textarea>
+      </div>
+    </section>
+
+    <!-- Panel 4: Inventory & Pricing -->
+    <section class="editor-panel">
+      <div class="panel-header">
+        <h3 data-i18n="panelInventory">Inventory & Pricing</h3>
+      </div>
+      <div class="form-grid-2">
+        <div class="form-group">
+          <label class="form-label" data-i18n="labelPrice">Price (USD)</label>
+          <input type="text" class="input-text" value="$34.99">
+        </div>
+        <div class="form-group">
+          <label class="form-label" data-i18n="labelQty">Quantity</label>
+          <input type="number" class="input-text" value="25">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Embed Database directly for zero-cors standalone offline execution -->
+  <script>
+    window.__LISTSAFE_DATABASE__ = null;
+    fetch('../data/trademark-database.json')
+      .then(res => res.json())
+      .then(data => {
+        window.__LISTSAFE_DATABASE__ = data;
+        if (window.ListSafeEngine) {
+          window.__localEngine = new window.ListSafeEngine(data);
+        }
+        if (window.ListSafe && window.ListSafe.scan) {
+          window.ListSafe.scan();
+        }
+      })
+      .catch(err => {
+        console.warn('Could not fetch external json, attempting direct scan:', err);
+      });
+  </script>
+
+  <!-- Load ListSafe i18n, Engine & Content Script -->
+  <script src="../utils/i18n.js"></script>
+  <script src="../utils/rule-engine.js"></script>
+  <script src="../content/content.js"></script>
+  <script src="mock-editor.js"></script>
+
+</body>
+</html>
