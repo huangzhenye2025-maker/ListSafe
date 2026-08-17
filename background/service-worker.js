@@ -205,8 +205,8 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   return true; // Keep message channel open for async response
 });
 
-// Backend Server Endpoint (Deploy to Render or Cloudflare)
-const API_BASE = 'https://listsafe-backend.onrender.com';
+// Backend Server Endpoint (Live Render Service)
+const API_BASE = 'https://listsafe.onrender.com';
 
 /**
  * Real License / Order verification against ListSafe Backend & Waffo Gatekeeper.
