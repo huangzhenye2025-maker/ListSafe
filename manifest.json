@@ -1,12 +1,11 @@
 {
   "manifest_version": 3,
   "name": "ListSafe - Etsy IP & Trademark Infringement Guard",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Real-time Etsy & E-Commerce Listing Trademark Scanner, DMCA Risk Interceptor & Smart Safe Keyword Suggester.",
   "permissions": [
     "storage",
-    "activeTab",
-    "scripting"
+    "activeTab"
   ],
   "host_permissions": [
     "https://*.etsy.com/*",

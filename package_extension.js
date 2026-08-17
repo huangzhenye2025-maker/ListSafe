@@ -6,7 +6,7 @@ console.log('--- [Packaging ListSafe for Chrome Web Store] ---');
 
 const projectRoot = __dirname;
 const distDir = path.join(projectRoot, 'dist_package');
-const zipOutput = path.join(projectRoot, 'ListSafe-Chrome-Extension-v1.0.1.zip');
+const zipOutput = path.join(projectRoot, 'ListSafe-Chrome-Extension-v1.0.2.zip');
 
 // Clean dist dir
 if (fs.existsSync(distDir)) {

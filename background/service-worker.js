@@ -139,7 +139,7 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
           success: true,
           totalRecords: databaseCache ? databaseCache.records.length : 0,
           categories: databaseCache ? databaseCache.categories : [],
-          version: databaseCache ? databaseCache.version : '1.0.1'
+          version: databaseCache ? databaseCache.version : '1.0.2'
         };
       }
 
