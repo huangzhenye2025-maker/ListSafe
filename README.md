@@ -51,9 +51,18 @@ ListSafe 内置原生多国语言国际化引擎，自动适配用户操作系�
 
 ## 🚀 快速上手与本地测试 (How to Test)
 
-### 方式一：直接在浏览器打开交互式测试沙盒 (推荐，最快)
-无需加载扩展，直接双击或用浏览器打开：
-👉 [demo/mock-etsy-editor.html](file:///c:/Users/Haye/Desktop/Antigravity/ListSafe/demo/mock-etsy-editor.html)
+### 方式一：本地 HTTP 服务打开交互式测试沙盒 (推荐，最快)
+> ⚠️ 注意：请**不要**直接双击 `mock-etsy-editor.html`。浏览器出于安全策略会拦截 `file://` 页面中对本地 JSON 的 `fetch()`，导致词库加载失败。请用本地 HTTP 服务打开：
+
+```text
+# 在项目根目录执行（任选其一）：
+python -m http.server 8000
+```
+
+然后浏览器访问：
+👉 http://localhost:8000/demo/mock-etsy-editor.html
+
+（已加载本扩展时，插件会自动在沙盒页上生效；未加载扩展也能以独立沙盒模式运行。）
 
 **可体验的核心功能**：
 1. **多语言一键切换**：右上角切换 `🇨🇳 简体中文`、`🇺🇸 English` 等，页面所有提示、悬浮卡片、按钮即时切换；

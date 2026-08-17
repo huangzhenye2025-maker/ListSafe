@@ -164,6 +164,13 @@
       })
       .catch(err => {
         console.warn('Could not fetch external json, attempting direct scan:', err);
+        // file:// pages block fetch() of local JSON. Surface a clear hint instead of failing silently.
+        if (location.protocol === 'file:') {
+          const warn = document.createElement('div');
+          warn.style.cssText = 'position:fixed;top:70px;left:50%;transform:translateX(-50%);z-index:99999;background:#7f1d1d;color:#fff;padding:10px 16px;border-radius:10px;font:600 13px/1.4 "Plus Jakarta Sans",sans-serif;box-shadow:0 8px 20px rgba(0,0,0,.25);max-width:560px;text-align:center;';
+          warn.textContent = '⚠️ The demo needs an HTTP server (fetch of the trademark database is blocked on file:// pages). Run: python -m http.server 8000  then open http://localhost:8000/demo/mock-etsy-editor.html';
+          document.body.appendChild(warn);
+        }
       });
   </script>
 

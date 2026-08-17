@@ -140,6 +140,14 @@ document.addEventListener('DOMContentLoaded', async () => {
   titleInput.addEventListener('input', updateCounters);
   tagsInput.addEventListener('input', updateCounters);
 
+  // Check file:// protocol limitation
+  if (window.location.protocol === 'file:') {
+    const fileNotice = document.createElement('div');
+    fileNotice.style.cssText = 'background: #fffbeb; border-bottom: 1px solid #fef3c7; color: #92400e; padding: 10px 20px; font-size: 13px; font-weight: 500; text-align: center; font-family: system-ui, sans-serif;';
+    fileNotice.innerHTML = '💡 <strong>Local Browser Tip:</strong> When opened directly via <code>file://</code>, Chrome blocks local JSON requests. For full live scanning, start a local server: <code>python -m http.server 8000</code> and visit <a href="http://localhost:8000/demo/mock-etsy-editor.html" style="color:#d97706; text-decoration:underline;">http://localhost:8000/demo/mock-etsy-editor.html</a>';
+    document.body.insertBefore(fileNotice, document.body.firstChild);
+  }
+
   // Load default high-risk preset on start to demonstrate immediate value
   loadPreset('mothersday');
 });

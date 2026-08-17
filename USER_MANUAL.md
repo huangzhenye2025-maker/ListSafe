@@ -175,7 +175,7 @@ ListSafe 内置 6 国主流电商语言，切换方法如下：
      * 🇪🇸 **Español**
      * 🇯🇵 **日本語**
 2. **在测试沙盒中切换**：
-   * 打开 [demo/mock-etsy-editor.html](file:///c:/Users/Haye/Desktop/Antigravity/ListSafe/demo/mock-etsy-editor.html)，在顶部控制栏右上角直接切换语言；
+   * 先在项目根目录运行 `python -m http.server 8000`，再打开 http://localhost:8000/demo/mock-etsy-editor.html （勿用 file:// 直接打开，浏览器会拦截本地词库加载），在顶部控制栏右上角直接切换语言；
 3. 切换后，插件弹窗、悬浮仪表盘、输入框警示条及所有按钮文案将**即时无刷新更新**，并自动持久化保存您的语言偏好。
 
 ---
@@ -199,4 +199,4 @@ ListSafe 内置 6 国主流电商语言，切换方法如下：
 > **答**：点击插件图标进入 **"⚡ Pro & Setup"** -> 在 **“自定义安全白名单”** 中输入您的品牌词并点击添加，插件将永久忽略该词，不再提示风险。
 
 ### Q3：如果在没有真实 Etsy 账号的情况下如何测试体验？
-> **答**：直接用浏览器打开工作区内的 [demo/mock-etsy-editor.html](file:///c:/Users/Haye/Desktop/Antigravity/ListSafe/demo/mock-etsy-editor.html)，点击顶部的 `🚨 Case 1` 或 `🚨 Case 2` 预设，即可 1:1 完整体验所有功能！
+> **答**：在项目根目录运行 `python -m http.server 8000` 后，打开 http://localhost:8000/demo/mock-etsy-editor.html，点击顶部的 `🚨 Case 1` 或 `🚨 Case 2` 预设，即可 1:1 完整体验所有功能！（请勿用 file:// 直接打开，浏览器会拦截本地词库加载。）

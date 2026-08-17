@@ -40,7 +40,7 @@
      * Set user custom whitelist
      */
     setWhitelist(list) {
-      this.customWhitelist = new Set((list || []).map(w => w.trim().toLowerCase()));
+      this.customWhitelist = new Set((list || []).map(w => w.trim().toLowerCase().replace(/[\s\-_]+/g, ' ')));
     }
 
     /**
@@ -128,9 +128,10 @@
         const startIndex = match.index;
         const endIndex = startIndex + matchedText.length;
         const lowerMatched = matchedText.toLowerCase().trim();
+        const whitelistKey = lowerMatched.replace(/[\s\-_]+/g, ' ');
 
         // 1. Check direct whitelist
-        if (this.customWhitelist.has(lowerMatched)) {
+        if (this.customWhitelist.has(whitelistKey)) {
           continue;
         }
 
@@ -158,7 +159,7 @@
         if (!record) continue;
 
         // Check if root phrase is whitelisted
-        if (this.customWhitelist.has(record.phrase.toLowerCase().trim())) {
+        if (this.customWhitelist.has(record.phrase.toLowerCase().trim().replace(/[\s\-_]+/g, ' '))) {
           continue;
         }
 

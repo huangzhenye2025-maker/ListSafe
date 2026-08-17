@@ -1,6 +1,7 @@
 /* ListSafe - Content Script Styling */
-
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+:root {
+  --listsafe-font-stack: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
 
 /* ===================================================
    1. Floating Safety Health Widget (Bottom-Right)
@@ -10,7 +11,7 @@
   bottom: 24px;
   right: 24px;
   z-index: 999999;
-  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  font-family: var(--listsafe-font-stack);
   box-sizing: border-box;
   user-select: none;
   transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);

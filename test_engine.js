@@ -50,7 +50,7 @@ console.log(`Remaining matches in cleaned title: ${cleanMatches.length}`);
 console.assert(cleanMatches.length === 0, 'Cleaned title should have 0 violations');
 
 // Test 4: Database Search
-const searchResults = engine.searchDatabase('cricut', '016');
+const searchResults = engine.searchDatabase('cricut');
 console.log(`\nTest 4 (Database Search for "cricut"): Found ${searchResults.length} records`);
 console.assert(searchResults.length > 0, 'Search should find records for Cricut');
 

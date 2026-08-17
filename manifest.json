@@ -13,6 +13,7 @@
     "https://*.shopify.com/*",
     "https://*.myshopify.com/*",
     "https://*.amazon.com/*",
+    "https://listsafe.onrender.com/*",
     "http://localhost/*",
     "http://127.0.0.1/*"
   ],

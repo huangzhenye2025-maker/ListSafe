@@ -146,7 +146,24 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
       case 'GET_USER_STATE': {
         await flushStats();
         const stored = await chrome.storage.local.get(['userState']);
-        return { success: true, state: stored.userState || DEFAULT_STATE };
+        const state = stored.userState || DEFAULT_STATE;
+
+        // Background non-blocking sync: If user is Pro and last check > 12 hours ago, verify with server
+        if (state.isPro && state.licenseKey && (!state.lastVerified || Date.now() - state.lastVerified > 12 * 3600 * 1000)) {
+          state.lastVerified = Date.now();
+          verifyLicenseKey(state.licenseKey).then(res => {
+            if (!res.ok && res.error && !res.error.includes('Could not connect')) {
+              // Server explicitly returned inactive, expired or refunded
+              chrome.storage.local.get(['userState'], (r) => {
+                const cur = r.userState || {};
+                cur.isPro = false;
+                chrome.storage.local.set({ userState: cur });
+              });
+            }
+          }).catch(() => {});
+        }
+
+        return { success: true, state };
       }
 
       case 'ACTIVATE_LICENSE': {
@@ -159,16 +176,27 @@ chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
           state.isPro = true;
           state.licenseKey = rawKey;
           state.activatedAt = new Date().toISOString();
-          state.proExpiry = new Date(Date.now() + 365 * 24 * 60 * 60 * 1000).toISOString();
+          state.plan = result.plan || 'pro_monthly';
+          state.lastVerified = Date.now();
+          
+          // Use server-provided expiration timestamp or calculate based on plan
+          if (result.expiresAt) {
+            state.proExpiry = new Date(result.expiresAt * 1000).toISOString();
+          } else {
+            const days = result.plan === 'pro_yearly' ? 365 : 30;
+            state.proExpiry = new Date(Date.now() + days * 24 * 60 * 60 * 1000).toISOString();
+          }
+
           await chrome.storage.local.set({ userState: state });
           return {
             success: true,
-            message: result.kind === 'waffo' || result.kind === 'waffo_verified'
-              ? 'Waffo 订单验证成功！Pro 专业版特权已解锁！'
-              : 'Pro features successfully unlocked!'
+            message: 'Waffo 订单验证成功！Pro 专业版特权已解锁！'
           };
         }
-        return { success: false, message: 'Invalid Order ID or License Key. Please check your Waffo confirmation email.' };
+        return {
+          success: false,
+          message: result.error || 'Invalid Order ID or License Key. Please check your Waffo confirmation email.'
+        };
       }
 
       case 'UPDATE_WHITELIST': {
@@ -210,14 +238,15 @@ const API_BASE = 'https://listsafe.onrender.com';
 
 /**
  * Real License / Order verification against ListSafe Backend & Waffo Gatekeeper.
+ * Enforces Fail-Closed security: Must be validated by live backend authority.
  */
 async function verifyLicenseKey(rawKey) {
   const key = (rawKey || '').trim();
   const keyUpper = key.toUpperCase();
 
-  // 1. Explicit Demo / Test keys
+  // 1. Explicit Local Demo / Test VIP keys
   if (keyUpper === 'DEMO-VIP-2026' || keyUpper === 'ETSY-SAFE-PRO') {
-    return { ok: true, kind: 'demo' };
+    return { ok: true, kind: 'demo', plan: 'pro_yearly' };
   }
 
   // 2. Strict format check
@@ -233,13 +262,13 @@ async function verifyLicenseKey(rawKey) {
     /^PRO-[A-Z0-9-]{4,}$/.test(keyUpper);
 
   if (!isWaffoOrder && !isOfficialKey) {
-    return { ok: false, error: 'Invalid format' };
+    return { ok: false, error: 'Invalid Order ID format. Expected format: ORD_xxxxxxxx or LISTSAFE-PRO-xxxx' };
   }
 
-  // 3. Online Server Verification (ListSafe Backend Gatekeeper with 5s timeout)
+  // 3. Online Server Verification (ListSafe Backend Gatekeeper)
   try {
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 5000);
+    const timer = setTimeout(() => controller.abort(), 6000);
     const verifyEndpoint = `${API_BASE}/api/verify-license?key=${encodeURIComponent(key)}`;
 
     const resp = await fetch(verifyEndpoint, {
@@ -253,21 +282,29 @@ async function verifyLicenseKey(rawKey) {
     if (resp && resp.ok) {
       const data = await resp.json();
       if (data && data.valid === true && data.status === 'active') {
-        return { ok: true, kind: 'server_verified', plan: data.plan || 'pro_monthly' };
+        return {
+          ok: true,
+          kind: 'server_verified',
+          plan: data.plan || 'pro_monthly',
+          expiresAt: data.expires_at
+        };
       }
       if (data && (data.status === 'refunded' || data.status === 'expired' || data.status === 'not_found')) {
-        return { ok: false, error: data.message || 'License inactive or not found' };
+        return {
+          ok: false,
+          error: data.message || 'License is inactive, expired, or refunded.'
+        };
       }
     }
   } catch (err) {
-    console.warn('[ListSafe] Backend verification timeout, applying format fallback:', err);
+    console.warn('[ListSafe] Backend verification network error:', err);
   }
 
-  // Format valid fallback for offline resilience
-  if (isWaffoOrder) return { ok: true, kind: 'waffo' };
-  if (isOfficialKey) return { ok: true, kind: 'official' };
-
-  return { ok: false };
+  // Fail-Closed: Never grant Pro without backend confirmation
+  return {
+    ok: false,
+    error: 'Could not connect to ListSafe License Server. Please check your internet connection and try again.'
+  };
 }
 
 /**

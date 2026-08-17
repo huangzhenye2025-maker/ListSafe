@@ -1,14 +1,35 @@
 {
-  "version": "2026.1.0",
-  "lastUpdated": "2026-08-16",
+  "version": "2026.1.1",
+  "lastUpdated": "2026-08-17",
   "categories": [
-    { "id": "025", "name": "Apparel & Clothing (Class 025)" },
-    { "id": "014", "name": "Jewelry & Precious Stones (Class 014)" },
-    { "id": "028", "name": "Toys, Games & Sporting Goods (Class 028)" },
-    { "id": "021", "name": "Housewares & Glass (Class 021)" },
-    { "id": "016", "name": "Paper Goods & Printed Matter (Class 016)" },
-    { "id": "020", "name": "Furniture & Home Decor (Class 020)" },
-    { "id": "009", "name": "Digital Goods & Electronics (Class 009)" }
+    {
+      "id": "025",
+      "name": "Apparel, Shirts & Footwear (Class 025)"
+    },
+    {
+      "id": "021",
+      "name": "Housewares, Tumblers & Drinkware (Class 021)"
+    },
+    {
+      "id": "014",
+      "name": "Jewelry, Rings & Charms (Class 014)"
+    },
+    {
+      "id": "028",
+      "name": "Toys, Games, Plushies & Sports (Class 028)"
+    },
+    {
+      "id": "016",
+      "name": "Paper Goods, Stickers & Stationery (Class 016)"
+    },
+    {
+      "id": "020",
+      "name": "Furniture, Pillows & Home Decor (Class 020)"
+    },
+    {
+      "id": "009",
+      "name": "Digital Goods, Audio & Electronics (Class 009)"
+    }
   ],
   "records": [
     {
@@ -16,11 +37,20 @@
       "phrase": "Boy Mom",
       "class": "025",
       "risk": "critical",
-      "owner": "Individual Registrant / Enforced by IP Troll Law Firms",
+      "owner": "Individual Registrant / Trolls",
       "serialNumber": "87563412",
-      "description": "Aggressively enforced on Etsy, Amazon Merch & Shopify for apparel/shirts. Triggers instant takedowns.",
-      "alternatives": ["Mother of Boys", "Mama of Sons", "Son's Mama", "Boy Tribe Mama", "Blessed Boy Mother"],
-      "keywords": ["boy mom", "boymom", "boy moms"]
+      "description": "Heavily enforced on Etsy and Amazon Merch shirts.",
+      "alternatives": [
+        "Mother of Boys",
+        "Mama of Sons",
+        "Son's Mama",
+        "Boy Tribe Mama"
+      ],
+      "keywords": [
+        "boy mom",
+        "boymom",
+        "boy moms"
+      ]
     },
     {
       "id": "tm-002",
@@ -28,542 +58,3891 @@
       "class": "025",
       "risk": "critical",
       "owner": "Private Registrant",
-      "serialNumber": "88129401",
-      "description": "Actively monitored and struck on apparel and tote bags. Frequent DMCA trigger.",
-      "alternatives": ["Mother of Girls", "Mama of Daughters", "Daughter's Mom", "Raising Queens Mama"],
-      "keywords": ["girl mom", "girlmom", "girl moms"]
+      "serialNumber": "88219403",
+      "description": "Aggressively reported on Etsy apparel and baby shower items.",
+      "alternatives": [
+        "Mother of Daughters",
+        "Daughter's Mama",
+        "Raising Girls Mama"
+      ],
+      "keywords": [
+        "girl mom",
+        "girlmom",
+        "girl moms"
+      ]
     },
     {
       "id": "tm-003",
       "phrase": "Mama Bear",
       "class": "025",
       "risk": "critical",
-      "owner": "Various active registrants for Class 025",
-      "serialNumber": "86940213",
-      "description": "One of the most frequent causes of shop suspensions for mother-themed apparel and mugs.",
-      "alternatives": ["Protective Mama", "Bear Mom Vibe", "Fierce Mother", "Bear Clan Mama", "Mother Bear Spirit"],
-      "keywords": ["mama bear", "mamabear", "mama bears"]
+      "owner": "Mama Bear Apparel LLC",
+      "serialNumber": "86940129",
+      "description": "Extremely common Etsy takedown for Mother's Day matching sets.",
+      "alternatives": [
+        "Protective Mama",
+        "Mama Wildlife",
+        "Mother Bear Spirit",
+        "Loving Mom"
+      ],
+      "keywords": [
+        "mama bear",
+        "mamabear",
+        "mama bears"
+      ]
     },
     {
       "id": "tm-004",
       "phrase": "Papa Bear",
       "class": "025",
       "risk": "high",
-      "owner": "Class 025 registered",
-      "serialNumber": "86940215",
-      "description": "Frequently struck in matching family shirt sets and Father's Day gifts.",
-      "alternatives": ["Protective Dad", "Father Bear Vibe", "Fierce Father", "Papa Grizzly", "Family Bear Dad"],
-      "keywords": ["papa bear", "papabear", "papa bears"]
+      "owner": "Commercial Registrant",
+      "serialNumber": "87019283",
+      "description": "Frequently swept during Father's Day apparel campaigns.",
+      "alternatives": [
+        "Protective Papa",
+        "Dad Bear",
+        "Loving Father",
+        "Proud Dad"
+      ],
+      "keywords": [
+        "papa bear",
+        "papabear",
+        "papa bears"
+      ]
     },
     {
       "id": "tm-005",
-      "phrase": "Super Bowl",
-      "class": "025, 028, 016, 021",
-      "risk": "critical",
-      "owner": "NFL (National Football League)",
-      "serialNumber": "73031024",
-      "description": "Mass automated sweeps every January-February. Zero tolerance, instant account strike.",
-      "alternatives": ["The Big Game", "Game Day Sunday", "Championship Football Party", "Sunday Football Tailgate"],
-      "keywords": ["super bowl", "superbowl", "super-bowl"]
-    },
-    {
-      "id": "tm-006",
-      "phrase": "Velcro",
-      "class": "026",
-      "risk": "critical",
-      "owner": "Velcro Companies",
-      "serialNumber": "71644745",
-      "description": "The legal department of Velcro actively files DMCAs against sellers using 'Velcro' instead of 'hook and loop'.",
-      "alternatives": ["Hook and Loop Fastener", "Touch Fastener", "Self-Adhesive Fastener", "Interlocking Tape"],
-      "keywords": ["velcro"]
-    },
-    {
-      "id": "tm-007",
       "phrase": "Onesie",
       "class": "025",
       "risk": "critical",
       "owner": "Gerber Childrenswear LLC",
-      "serialNumber": "73347891",
-      "description": "Gerber aggressively sweeps Etsy daily for the word 'onesie'. Hundreds of baby clothing shops closed.",
-      "alternatives": ["Baby Bodysuit", "Infant Creeper", "One-Piece Baby Romper", "Baby Snapsuit"],
-      "keywords": ["onesie", "onesies", "one-sie"]
+      "serialNumber": "73343118",
+      "description": "Registered by Gerber. #1 reason for Etsy baby clothing shop strikes.",
+      "alternatives": [
+        "Infant Bodysuit",
+        "Baby Bodysuit",
+        "Baby Jumpsuit",
+        "One-Piece Creep"
+      ],
+      "keywords": [
+        "onesie",
+        "onesies",
+        "one piece suit"
+      ]
+    },
+    {
+      "id": "tm-006",
+      "phrase": "Swiftie",
+      "class": "025",
+      "risk": "critical",
+      "owner": "TAS Rights Management, LLC",
+      "serialNumber": "97839201",
+      "description": "Taylor Swift official management. Sweeps concerts and merchandise.",
+      "alternatives": [
+        "Pop Concert Fan",
+        "Era Music Lover",
+        "Pop Icon Enthusiast"
+      ],
+      "keywords": [
+        "swiftie",
+        "swifties",
+        "swifty"
+      ]
+    },
+    {
+      "id": "tm-007",
+      "phrase": "Barbie",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Mattel, Inc.",
+      "serialNumber": "72002685",
+      "description": "Mattel legal enforcement against pink doll aesthetic merchandise.",
+      "alternatives": [
+        "Fashion Doll Aesthetic",
+        "Retro Glam Pink",
+        "Nostalgic Doll Style"
+      ],
+      "keywords": [
+        "barbie",
+        "barbiecore",
+        "barbie doll",
+        "barbie pink"
+      ]
     },
     {
       "id": "tm-008",
-      "phrase": "Popsocket",
-      "class": "009",
+      "phrase": "Disney",
+      "class": "025",
       "risk": "critical",
-      "owner": "PopSockets LLC",
-      "serialNumber": "86198544",
-      "description": "Strictly monitored phone grip trademark. Sellers must use generic terms.",
-      "alternatives": ["Phone Grip", "Collapsible Grip Stand", "Phone Socket Holder", "Expanding Phone Stand"],
-      "keywords": ["popsocket", "pop socket", "popsockets", "pop sockets"]
+      "owner": "Disney Enterprises, Inc.",
+      "serialNumber": "71329481",
+      "description": "Zero tolerance automated detection and shop bans.",
+      "alternatives": [
+        "Magical Castle Style",
+        "Theme Park Vacation",
+        "Fantasy Mouse Inspired"
+      ],
+      "keywords": [
+        "disney",
+        "disneyland",
+        "disneyworld",
+        "walt disney"
+      ]
     },
     {
       "id": "tm-009",
-      "phrase": "Autism Mom",
+      "phrase": "Mickey Mouse",
       "class": "025",
-      "risk": "high",
-      "owner": "Private Trademark Holder",
-      "serialNumber": "88764123",
-      "description": "Registered for clothing. Known to strike awareness merchandise and graphic tees.",
-      "alternatives": ["Autism Awareness Mama", "Neurodiversity Mom", "Autism Supporter Mother", "Special Needs Mom Hero"],
-      "keywords": ["autism mom", "autismmom"]
+      "risk": "critical",
+      "owner": "Disney Enterprises, Inc.",
+      "serialNumber": "71261548",
+      "description": "Trademarked character name and iconic silhouette.",
+      "alternatives": [
+        "Classic Cartoon Mouse",
+        "Vintage Animated Mouse",
+        "Magical Park Mouse"
+      ],
+      "keywords": [
+        "mickey mouse",
+        "mickey ears",
+        "mickey head"
+      ]
     },
     {
       "id": "tm-010",
-      "phrase": "Barbie Pink",
-      "class": "025, 016, 028",
+      "phrase": "Minnie Mouse",
+      "class": "025",
       "risk": "critical",
-      "owner": "Mattel, Inc.",
-      "serialNumber": "88451920",
-      "description": "Mattel aggressively sweeps all variations of Barbie font, name, and color designations.",
-      "alternatives": ["Hot Magenta Pink", "Retro Doll Pink", "Neon Bubblegum Pink", "Y2K Dream Pink"],
-      "keywords": ["barbie pink", "barbiecore", "barbie font", "barbie doll"]
+      "owner": "Disney Enterprises, Inc.",
+      "serialNumber": "71289456",
+      "description": "Aggressive takedowns on polka dot bows and apparel.",
+      "alternatives": [
+        "Polka Dot Bow Mouse",
+        "Retro Cartoon Girl Mouse"
+      ],
+      "keywords": [
+        "minnie mouse",
+        "minnie ears",
+        "minnie bow"
+      ]
     },
     {
       "id": "tm-011",
-      "phrase": "Smiley Face",
-      "class": "025, 014, 016",
+      "phrase": "Marvel",
+      "class": "025",
       "risk": "critical",
-      "owner": "The Smiley Company (Franklin Loufrani)",
-      "serialNumber": "75319842",
-      "description": "The yellow circular smiley graphic with specific dimensions is strictly policed worldwide.",
-      "alternatives": ["Happy Face Icon", "Retro Grin Graphic", "Smiling Mood Symbol", "Cheerful Emoji Style"],
-      "keywords": ["smiley face", "smileyface", "the smiley company"]
+      "owner": "Marvel Characters, Inc.",
+      "serialNumber": "78291048",
+      "description": "Superhero apparel, comic graphics, and character logos.",
+      "alternatives": [
+        "Comic Superhero",
+        "Vigilante Hero",
+        "Graphic Novel Style"
+      ],
+      "keywords": [
+        "marvel",
+        "marvel comics",
+        "marvel studios"
+      ]
     },
     {
       "id": "tm-012",
-      "phrase": "Shabby Chic",
-      "class": "020, 024, 025",
-      "risk": "high",
-      "owner": "Rachel Ashwell Shabby Chic IP Holdings",
-      "serialNumber": "74561239",
-      "description": "Common vintage decor term that is actually a registered brand. Causes many vintage decor takedowns.",
-      "alternatives": ["Vintage Rustic Farmhouse", "Distressed Cottagecore", "Antique French Country", "Romantic Vintage Elegance"],
-      "keywords": ["shabby chic", "shabbychic"]
+      "phrase": "Harry Potter",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Warner Bros. Entertainment",
+      "serialNumber": "75389201",
+      "description": "Wizarding world terms, house names, and lightning bolt themes.",
+      "alternatives": [
+        "Wizard Academy",
+        "Magic School Student",
+        "Sorcerer School"
+      ],
+      "keywords": [
+        "harry potter",
+        "hogwarts",
+        "gryffindor",
+        "slytherin"
+      ]
     },
     {
       "id": "tm-013",
-      "phrase": "Band-Aid",
-      "class": "005",
-      "risk": "high",
-      "owner": "Johnson & Johnson",
-      "serialNumber": "71171542",
-      "description": "Brand name often misused for generic bandages in stickers, planner accessories and health kits.",
-      "alternatives": ["Adhesive Bandage", "Sticker Bandage", "Wound Strip Graphic"],
-      "keywords": ["band-aid", "band aid", "bandaid"]
+      "phrase": "Nike",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Nike, Inc.",
+      "serialNumber": "72412850",
+      "description": "Athletic wear, swoosh design, athletic slogans.",
+      "alternatives": [
+        "Athletic Sportswear",
+        "Performance Training Apparel"
+      ],
+      "keywords": [
+        "nike",
+        "nikes",
+        "nike air"
+      ]
     },
     {
       "id": "tm-014",
-      "phrase": "Bubble Wrap",
-      "class": "016",
-      "risk": "high",
-      "owner": "Sealed Air Corporation",
-      "serialNumber": "72274981",
-      "description": "Registered trademark for cellular cushioning material.",
-      "alternatives": ["Cushioning Wrap", "Air Bubble Packing", "Protective Bubble Film"],
-      "keywords": ["bubble wrap", "bubblewrap"]
+      "phrase": "Just Do It",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Nike, Inc.",
+      "serialNumber": "73775432",
+      "description": "Famous athletic slogan protected across all clothing classes.",
+      "alternatives": [
+        "Take Action Now",
+        "Make It Happen",
+        "Never Stop Trying"
+      ],
+      "keywords": [
+        "just do it",
+        "just doit"
+      ]
     },
     {
       "id": "tm-015",
-      "phrase": "Frisbee",
-      "class": "028",
-      "risk": "high",
-      "owner": "Wham-O Holding, Ltd.",
-      "serialNumber": "72064125",
-      "description": "Frequently flagged in custom outdoor wedding games and pet toys.",
-      "alternatives": ["Flying Disc", "Throwing Disc", "Aerodynamic Flying Ring"],
-      "keywords": ["frisbee", "frisbees"]
+      "phrase": "Super Bowl",
+      "class": "025",
+      "risk": "critical",
+      "owner": "NFL Properties LLC",
+      "serialNumber": "72329184",
+      "description": "NFL aggressively sweeps game day party shirts and decorations.",
+      "alternatives": [
+        "Big Football Game",
+        "Championship Sunday",
+        "Game Day Sunday"
+      ],
+      "keywords": [
+        "super bowl",
+        "superbowl",
+        "super bowl sunday"
+      ]
     },
     {
       "id": "tm-016",
-      "phrase": "Hula Hoop",
-      "class": "028",
-      "risk": "high",
-      "owner": "Wham-O Holding, Ltd.",
-      "serialNumber": "72054198",
-      "description": "Registered trademark for toy hoops.",
-      "alternatives": ["Fitness Hoop", "Dance Ring Hoop", "Rhythmic Exercise Hoop"],
-      "keywords": ["hula hoop", "hulahoop", "hula-hoop"]
+      "phrase": "NFL",
+      "class": "025",
+      "risk": "critical",
+      "owner": "NFL Properties LLC",
+      "serialNumber": "72391029",
+      "description": "National Football League logos, abbreviations, and team names.",
+      "alternatives": [
+        "Pro Football",
+        "Sunday Football",
+        "Gridiron Game"
+      ],
+      "keywords": [
+        "nfl",
+        "nfl football"
+      ]
     },
     {
       "id": "tm-017",
-      "phrase": "Jacuzzi",
-      "class": "011",
-      "risk": "medium",
-      "owner": "Jacuzzi Inc.",
-      "serialNumber": "72341908",
-      "description": "Flagged in bath bomb and spa gift box descriptions.",
-      "alternatives": ["Whirlpool Bath", "Hot Tub Spa", "Jetted Soaking Tub"],
-      "keywords": ["jacuzzi", "jacuzzis"]
+      "phrase": "NBA",
+      "class": "025",
+      "risk": "critical",
+      "owner": "NBA Properties, Inc.",
+      "serialNumber": "73109284",
+      "description": "Basketball association logos and team merchandise.",
+      "alternatives": [
+        "Pro Basketball",
+        "Hoops League",
+        "Court Game"
+      ],
+      "keywords": [
+        "nba",
+        "nba basketball"
+      ]
     },
     {
       "id": "tm-018",
-      "phrase": "Jeep Grill",
-      "class": "012, 025",
+      "phrase": "MLB",
+      "class": "025",
       "risk": "critical",
-      "owner": "FCA US LLC (Stellantis)",
-      "serialNumber": "77123984",
-      "description": "FCA aggressively sues and takes down any seven-slot grill svg, cut file, or decal.",
-      "alternatives": ["Off-Road Vehicle Front", "4x4 Adventure Grille Silhouette", "Trail Truck Front Outline"],
-      "keywords": ["jeep grill", "jeep grille", "7 slot grill", "jeep wave"]
+      "owner": "Major League Baseball",
+      "serialNumber": "73201948",
+      "description": "Baseball league names, World Series terms.",
+      "alternatives": [
+        "Major Baseball",
+        "America's Pastime",
+        "Ballpark Style"
+      ],
+      "keywords": [
+        "mlb",
+        "major league baseball"
+      ]
     },
     {
       "id": "tm-019",
-      "phrase": "Lego",
-      "class": "028, 025",
+      "phrase": "Jeep Grill",
+      "class": "025",
       "risk": "critical",
-      "owner": "LEGO Juris A/S",
-      "serialNumber": "71345910",
-      "description": "Strictly policed. Building blocks, brick earrings, and minifig-style items are taken down on sight.",
-      "alternatives": ["Building Bricks", "Interlocking Toy Blocks", "Custom Brick Toy Figure"],
-      "keywords": ["lego", "legos", "lego minifig", "lego brick"]
+      "owner": "FCA US LLC (Chrysler/Jeep)",
+      "serialNumber": "86940192",
+      "description": "Registered 7-slot grille silhouette and slogan on SVG/apparel.",
+      "alternatives": [
+        "Off-Road 4x4 Vehicle",
+        "Trail Cruiser Front Grille",
+        "Adventure 4WD"
+      ],
+      "keywords": [
+        "jeep grill",
+        "seven slot grill",
+        "7 slot grill",
+        "jeep svg"
+      ]
     },
     {
       "id": "tm-020",
-      "phrase": "Memory Foam",
-      "class": "020",
-      "risk": "medium",
-      "owner": "Various territorial registrations",
-      "serialNumber": "75849102",
-      "description": "Monitored for pet beds and custom cushion crafts.",
-      "alternatives": ["Visco-Elastic Foam", "High Density Contour Foam", "Pressure Relief Foam"],
-      "keywords": ["memory foam", "memoryfoam"]
+      "phrase": "Cricut",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Cricut, Inc.",
+      "serialNumber": "78891024",
+      "description": "Cutting machine brand name on digital SVG files and tees.",
+      "alternatives": [
+        "Vinyl Cutter Craft",
+        "Cutting Machine SVG",
+        "Craft Plotter File"
+      ],
+      "keywords": [
+        "cricut",
+        "cricut maker",
+        "cricut joy",
+        "cricut svg"
+      ]
     },
     {
       "id": "tm-021",
-      "phrase": "Ping Pong",
-      "class": "028",
-      "risk": "medium",
-      "owner": "Escalade Sports",
-      "serialNumber": "71031945",
-      "description": "Registered trademark for table tennis equipment.",
-      "alternatives": ["Table Tennis", "Paddle Ball Sport", "Table Paddle Game"],
-      "keywords": ["ping pong", "pingpong", "ping-pong"]
+      "phrase": "Harley Davidson",
+      "class": "025",
+      "risk": "critical",
+      "owner": "H-D U.S.A., LLC",
+      "serialNumber": "71294820",
+      "description": "Motorcycle enthusiast shirts, bar and shield emblems.",
+      "alternatives": [
+        "American Cruiser Bike",
+        "Classic Chopper Motorcycle",
+        "V-Twin Biker"
+      ],
+      "keywords": [
+        "harley davidson",
+        "harley",
+        "harleydavidson"
+      ]
     },
     {
       "id": "tm-022",
-      "phrase": "Post-it",
-      "class": "016",
-      "risk": "high",
-      "owner": "3M Company",
-      "serialNumber": "73245912",
-      "description": "Frequently struck in stationery, planner stickers, and printable digital products.",
-      "alternatives": ["Sticky Note", "Self-Adhesive Memo Note", "Removable Page Marker"],
-      "keywords": ["post-it", "post it", "postit"]
+      "phrase": "Louis Vuitton",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Louis Vuitton Malletier",
+      "serialNumber": "73291048",
+      "description": "Monogram patterns, luxury fashion motifs on tumblers/tees.",
+      "alternatives": [
+        "Haute Couture Monogram",
+        "Luxury French Chic",
+        "Parisian Elegance"
+      ],
+      "keywords": [
+        "louis vuitton",
+        "lv",
+        "louisvuitton"
+      ]
     },
     {
       "id": "tm-023",
-      "phrase": "Q-tip",
-      "class": "003, 021",
-      "risk": "medium",
-      "owner": "Unilever",
-      "serialNumber": "71249811",
-      "description": "Brand name for cotton swabs, flagged in bathroom organizer crafts.",
-      "alternatives": ["Cotton Swab", "Cotton Bud", "Double-Ended Cotton Applicator"],
-      "keywords": ["q-tip", "q tip", "qtip", "qtips"]
+      "phrase": "Gucci",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Guccio Gucci S.p.A.",
+      "serialNumber": "71209384",
+      "description": "Luxury designer brand, double G logos.",
+      "alternatives": [
+        "Italian High Fashion",
+        "Florence Luxury Aesthetic"
+      ],
+      "keywords": [
+        "gucci",
+        "guccio gucci"
+      ]
     },
     {
       "id": "tm-024",
-      "phrase": "Rollerblade",
-      "class": "028, 025",
-      "risk": "high",
-      "owner": "Tecnica Group S.p.A.",
-      "serialNumber": "73459102",
-      "description": "Often misused for inline skates in retro 90s apparel and stickers.",
-      "alternatives": ["Inline Skates", "Retro Street Skates", "Quad Inline Rollers"],
-      "keywords": ["rollerblade", "roller blade", "rollerblades"]
+      "phrase": "Chanel",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Chanel, Inc.",
+      "serialNumber": "71284930",
+      "description": "Luxury fashion, perfume motifs, interlocking CC.",
+      "alternatives": [
+        "Parisian Haute Fashion",
+        "Timeless Chic Designer"
+      ],
+      "keywords": [
+        "chanel",
+        "coco chanel"
+      ]
     },
     {
       "id": "tm-025",
-      "phrase": "Sharpie",
-      "class": "016",
-      "risk": "high",
-      "owner": "Sanford, L.P. (Newell Brands)",
-      "serialNumber": "72094182",
-      "description": "Flagged in DIY craft kits and calligraphy bundle listings.",
-      "alternatives": ["Permanent Marker", "Fine Point Alcohol Marker", "Waterproof Ink Pen"],
-      "keywords": ["sharpie", "sharpies"]
+      "phrase": "Prada",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Prada S.A.",
+      "serialNumber": "73291840",
+      "description": "Luxury Italian fashion label.",
+      "alternatives": [
+        "Milano Designer Fashion",
+        "Contemporary Italian Luxury"
+      ],
+      "keywords": [
+        "prada",
+        "prada milano"
+      ]
     },
     {
       "id": "tm-026",
-      "phrase": "Taser",
-      "class": "009, 013",
-      "risk": "critical",
-      "owner": "Axon Enterprise, Inc.",
-      "serialNumber": "73039182",
-      "description": "Strictly monitored trademark for electroshock self-defense weapons/keychains.",
-      "alternatives": ["Stun Gun Device", "Electroshock Self-Defense Tool", "Safety Voltage Device"],
-      "keywords": ["taser", "tasers"]
+      "phrase": "Ugg",
+      "class": "025",
+      "risk": "high",
+      "owner": "Deckers Outdoor Corporation",
+      "serialNumber": "73291039",
+      "description": "Sheepskin boots and winter footwear.",
+      "alternatives": [
+        "Shearling Winter Boots",
+        "Australian Sheepskin Booties",
+        "Plush Cozy Boots"
+      ],
+      "keywords": [
+        "ugg",
+        "uggs",
+        "ugg boots"
+      ]
     },
     {
       "id": "tm-027",
-      "phrase": "Thermos",
-      "class": "021",
-      "risk": "high",
-      "owner": "Thermos L.L.C.",
-      "serialNumber": "71064912",
-      "description": "Often misused in laser-engraved travel mugs and tumbler crafts.",
-      "alternatives": ["Insulated Vacuum Flask", "Thermal Travel Bottle", "Double-Wall Insulated Tumbler"],
-      "keywords": ["thermos", "thermoses"]
+      "phrase": "Crocs",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Crocs, Inc.",
+      "serialNumber": "78891048",
+      "description": "Foam clogs and Jibbitz shoe charms.",
+      "alternatives": [
+        "Foam Clog Shoes",
+        "Ventilated Garden Clogs",
+        "Slip-On Foam Mules"
+      ],
+      "keywords": [
+        "crocs",
+        "croc",
+        "croc charms"
+      ]
     },
     {
       "id": "tm-028",
-      "phrase": "Tupperware",
-      "class": "021",
-      "risk": "high",
-      "owner": "Tupperware Brands",
-      "serialNumber": "71549182",
-      "description": "Flagged in meal prep labels, kitchen decal stickers, and pantry organization items.",
-      "alternatives": ["Food Storage Container", "Airtight Meal Prep Box", "Plastic Storage Tub"],
-      "keywords": ["tupperware"]
+      "phrase": "Jibbitz",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Crocs, Inc.",
+      "serialNumber": "78791028",
+      "description": "Shoe charms for foam clogs. Major Etsy strike category.",
+      "alternatives": [
+        "Shoe Charms",
+        "Clog Pin Accessories",
+        "Shoe Hole Decor Pins"
+      ],
+      "keywords": [
+        "jibbitz",
+        "jibbit",
+        "jibbitz charms"
+      ]
     },
     {
       "id": "tm-029",
-      "phrase": "Cricut",
-      "class": "007, 016, 028",
+      "phrase": "Lululemon",
+      "class": "025",
       "risk": "critical",
-      "owner": "Cricut, Inc.",
-      "serialNumber": "77189201",
-      "description": "Using 'for Cricut' in titles without proper compatibility syntax triggers automatic IP reports.",
-      "alternatives": ["Compatible with Cutting Machines", "For Craft Cutters", "SVG Cutting File Compatible"],
-      "keywords": ["cricut maker", "cricut joy", "cricut svg"]
+      "owner": "Lululemon Athletica Canada",
+      "serialNumber": "78291038",
+      "description": "Yoga wear, athletic leggings, define jacket styles.",
+      "alternatives": [
+        "Premium Athletic Yoga Wear",
+        "Buttery Soft Leggings"
+      ],
+      "keywords": [
+        "lululemon",
+        "lulu lemon",
+        "lululemon leggings"
+      ]
     },
     {
       "id": "tm-030",
-      "phrase": "Silhouette Cameo",
-      "class": "007, 016",
+      "phrase": "Spanx",
+      "class": "025",
       "risk": "high",
-      "owner": "Silhouette America, Inc.",
-      "serialNumber": "85194012",
-      "description": "Brand name for vinyl cutting plotter.",
-      "alternatives": ["Compatible with Desktop Vinyl Plotters", "For Digital Craft Cutters"],
-      "keywords": ["silhouette cameo", "cameo 4", "silhouette portrait"]
+      "owner": "Spanx, LLC",
+      "serialNumber": "75920194",
+      "description": "Shapewear, compression garments, body sculptors.",
+      "alternatives": [
+        "Body Shaping Undergarment",
+        "Seamless Compression Shapewear"
+      ],
+      "keywords": [
+        "spanx",
+        "spanx leggings"
+      ]
     },
     {
       "id": "tm-031",
-      "phrase": "Tiffany Blue",
-      "class": "014, 016, 025",
-      "risk": "critical",
-      "owner": "Tiffany & Co.",
-      "serialNumber": "75849103",
-      "description": "Robin egg blue shade name exclusively owned by Tiffany. Highly monitored in jewelry and wedding decor.",
-      "alternatives": ["Robin Egg Blue", "Aqua Mint Pastel", "Luxury Turquoise Hue", "Seafoam Blue"],
-      "keywords": ["tiffany blue", "tiffany and co", "tiffany style"]
+      "phrase": "Spalding",
+      "class": "025",
+      "risk": "medium",
+      "owner": "Russell Brands, LLC",
+      "serialNumber": "71294821",
+      "description": "Sporting goods and basketball apparel.",
+      "alternatives": [
+        "Official Basketball Gear",
+        "Pro Court Ball Apparel"
+      ],
+      "keywords": [
+        "spalding",
+        "spalding basketball"
+      ]
     },
     {
       "id": "tm-032",
-      "phrase": "Louis Vuitton",
-      "class": "018, 025, 014",
-      "risk": "critical",
-      "owner": "Louis Vuitton Malletier",
-      "serialNumber": "73294810",
-      "description": "LV, Damier checkered patterns, and Monogram prints cause immediate shop bans and lawsuits.",
-      "alternatives": ["Designer Checkered Pattern", "French Luxury Style Motif", "Classic High-Fashion Pattern"],
-      "keywords": ["louis vuitton", "lv monogram", "damier ebene"]
+      "phrase": "Champion",
+      "class": "025",
+      "risk": "high",
+      "owner": "Hanesbrands Inc.",
+      "serialNumber": "71293847",
+      "description": "Sweatshirts, hoodies, C logo athletic wear.",
+      "alternatives": [
+        "Athletic Heavyweight Fleece",
+        "Heritage Sportswear"
+      ],
+      "keywords": [
+        "champion",
+        "champion hoodie",
+        "champion sweatshirt"
+      ]
     },
     {
       "id": "tm-033",
-      "phrase": "Gucci",
-      "class": "018, 025, 014",
+      "phrase": "Patagonia",
+      "class": "025",
       "risk": "critical",
-      "owner": "Guccio Gucci S.p.A.",
-      "serialNumber": "72049182",
-      "description": "Red-green stripe bands, interlocking G patterns, and name are aggressively policed.",
-      "alternatives": ["Italian Luxury Stripe", "High-End Fashion Motif", "Retro Green-Red Webbing"],
-      "keywords": ["gucci", "gucci inspired", "gucci snake"]
+      "owner": "Patagonia, Inc.",
+      "serialNumber": "73019284",
+      "description": "Outdoor fleeces, mountain logos, organic clothing.",
+      "alternatives": [
+        "Mountain Outdoor Apparel",
+        "Wilderness Fleece Vest"
+      ],
+      "keywords": [
+        "patagonia",
+        "patagonia fleece"
+      ]
     },
     {
       "id": "tm-034",
-      "phrase": "Chanel",
-      "class": "003, 014, 018, 025",
+      "phrase": "North Face",
+      "class": "025",
       "risk": "critical",
-      "owner": "Chanel SARL",
-      "serialNumber": "71349182",
-      "description": "Zero tolerance for interlocking CC logos, No. 5 bottles, or 'Chanel inspired' listings.",
-      "alternatives": ["Parisian Chic Style", "Haute Couture Aesthetic", "Quilted Classic Elegance"],
-      "keywords": ["chanel", "chanel inspired", "chanel no 5", "coco chanel"]
+      "owner": "The North Face Apparel Corp.",
+      "serialNumber": "72391028",
+      "description": "Winter parkas, dome logo outdoor wear.",
+      "alternatives": [
+        "Alpine Summit Outerwear",
+        "All-Weather Explorer Jacket"
+      ],
+      "keywords": [
+        "the north face",
+        "north face",
+        "northface"
+      ]
     },
     {
       "id": "tm-035",
-      "phrase": "Swiftie",
-      "class": "025, 014, 016",
+      "phrase": "Under Armour",
+      "class": "025",
       "risk": "critical",
-      "owner": "TAS Rights Management (Taylor Swift)",
-      "serialNumber": "97812903",
-      "description": "Taylor Swift's legal team aggressively sweeps Etsy for 'Swiftie', Eras Tour, and song lyric merch.",
-      "alternatives": ["Pop Concert Fan", "Friendship Bracelet Lover", "Eras Music Enthusiast", "Midnight Era Vibe"],
-      "keywords": ["swiftie", "swifties", "taylor swift", "eras tour", "karma is a cat"]
+      "owner": "Under Armour, Inc.",
+      "serialNumber": "75291048",
+      "description": "Performance base layers, athletic compression.",
+      "alternatives": [
+        "Performance Base Layer",
+        "Athletic Heat Shield Top"
+      ],
+      "keywords": [
+        "under armour",
+        "underarmour"
+      ]
     },
     {
       "id": "tm-036",
-      "phrase": "Stanley Cup",
-      "class": "021, 025, 028",
+      "phrase": "Gymshark",
+      "class": "025",
       "risk": "critical",
-      "owner": "Pacific Market International (Stanley) & NHL",
-      "serialNumber": "72394182",
-      "description": "Stanley 40oz tumbler name and NHL championship trophy. Swept ruthlessly for tumbler charms and accessories.",
-      "alternatives": ["40oz Travel Tumbler with Handle", "Stainless Steel Quencher Mug", "Insulated Straw Cup"],
-      "keywords": ["stanley cup", "stanley 40oz", "stanley tumbler", "stanley accessory"]
+      "owner": "Gymshark Limited",
+      "serialNumber": "86940182",
+      "description": "Fitness apparel, seamless gym leggings.",
+      "alternatives": [
+        "Fitness Workout Apparel",
+        "Seamless Gym Leggings"
+      ],
+      "keywords": [
+        "gymshark",
+        "gym shark"
+      ]
     },
     {
       "id": "tm-037",
-      "phrase": "Disney",
-      "class": "025, 028, 016, 014",
+      "phrase": "Adidas",
+      "class": "025",
       "risk": "critical",
-      "owner": "Disney Enterprises, Inc.",
-      "serialNumber": "72039481",
-      "description": "Mickey ears silhouette, fonts, characters, and castle artwork trigger automated AI sweeps.",
-      "alternatives": ["Magical Theme Park Vacation", "Mouse Ears Headband", "Fairy Tale Kingdom Fan", "Magical Castle Day"],
-      "keywords": ["disney", "disneyland", "disney world", "mickey mouse", "minnie mouse", "walt disney"]
+      "owner": "Adidas AG",
+      "serialNumber": "71294810",
+      "description": "Three-stripe sportswear and footwear.",
+      "alternatives": [
+        "Three-Stripe Athletic Style",
+        "Heritage Sport Sneakers"
+      ],
+      "keywords": [
+        "adidas",
+        "adidas originals"
+      ]
     },
     {
       "id": "tm-038",
-      "phrase": "Harry Potter",
-      "class": "025, 028, 016",
-      "risk": "critical",
-      "owner": "Warner Bros. Entertainment Inc.",
-      "serialNumber": "75394812",
-      "description": "Hogwarts houses, Gryffindor, Golden Snitch, Deathly Hallows symbol are actively struck.",
-      "alternatives": ["Wizarding School Fantasy", "Magic Academy Wizard", "Spellbinding Witchcraft Decor"],
-      "keywords": ["harry potter", "hogwarts", "gryffindor", "slytherin", "hufflepuff", "ravenclaw"]
+      "phrase": "Puma",
+      "class": "025",
+      "risk": "high",
+      "owner": "Puma SE",
+      "serialNumber": "72019482",
+      "description": "Athletic shoes and jumping cat logo sportswear.",
+      "alternatives": [
+        "Feline Athletic Sportswear",
+        "Speed Runner Sneakers"
+      ],
+      "keywords": [
+        "puma",
+        "puma shoes"
+      ]
     },
     {
       "id": "tm-039",
-      "phrase": "Star Wars",
-      "class": "025, 028, 016",
-      "risk": "critical",
-      "owner": "Lucasfilm Ltd. LLC",
-      "serialNumber": "73189421",
-      "description": "Baby Yoda, Mandalorian, Lightsaber, Jedi, May the 4th are prime targets for shop takedowns.",
-      "alternatives": ["Galactic Sci-Fi Warrior", "Space Bounty Hunter", "Cosmic Alien Child", "Intergalactic Hero"],
-      "keywords": ["star wars", "baby yoda", "grogu", "mandalorian", "lightsaber", "darth vader", "may the 4th"]
+      "phrase": "Vans",
+      "class": "025",
+      "risk": "high",
+      "owner": "Vans, Inc.",
+      "serialNumber": "73291049",
+      "description": "Skateboard footwear, checkerboard pattern slip-ons.",
+      "alternatives": [
+        "Skateboarding Canvas Shoes",
+        "Checkerboard Slip-On Footwear"
+      ],
+      "keywords": [
+        "vans",
+        "vans shoes",
+        "off the wall"
+      ]
     },
     {
       "id": "tm-040",
-      "phrase": "Nike Just Do It",
-      "class": "025, 028",
+      "phrase": "Converse",
+      "class": "025",
       "risk": "critical",
-      "owner": "Nike, Inc.",
-      "serialNumber": "74391823",
-      "description": "Swoosh logo and phrase are rigorously protected with automated brand protection crawlers.",
-      "alternatives": ["Athlete Motivation Slogan", "Inspire Fitness Spirit", "Go After Your Dreams"],
-      "keywords": ["just do it", "nike swoosh", "air jordan", "nike"]
+      "owner": "Converse Inc.",
+      "serialNumber": "71294822",
+      "description": "Chuck Taylor All Star high top canvas shoes.",
+      "alternatives": [
+        "Vintage High-Top Canvas Sneakers",
+        "Retro Basketball Canvas Shoes"
+      ],
+      "keywords": [
+        "converse",
+        "chuck taylor",
+        "all star"
+      ]
     },
     {
       "id": "tm-041",
-      "phrase": "Bogg Bag",
-      "class": "018, 021",
+      "phrase": "Stanley Cup",
+      "class": "021",
       "risk": "critical",
-      "owner": "Two's Company / Bogg Bag LLC",
-      "serialNumber": "85491024",
-      "description": "EVA rubber beach bag and charm attachments are heavily swept on Etsy and Amazon.",
-      "alternatives": ["Washable Rubber Beach Tote", "Waterproof EVA Hole Bag", "Perforated Beach Basket"],
-      "keywords": ["bogg bag", "bogg bags", "bogg accessories", "bogg bit"]
+      "owner": "PMI WW Brands, LLC (Stanley)",
+      "serialNumber": "97849102",
+      "description": "Massive takedown wave on 40oz tumblers & straw accessories.",
+      "alternatives": [
+        "40oz Travel Tumbler with Handle",
+        "Vacuum Insulated Quencher",
+        "Stainless Steel Car Cup"
+      ],
+      "keywords": [
+        "stanley cup",
+        "stanley tumbler",
+        "stanley 40oz",
+        "stanley quencher"
+      ]
     },
     {
       "id": "tm-042",
-      "phrase": "Crocs",
-      "class": "025, 026",
+      "phrase": "Yeti",
+      "class": "021",
       "risk": "critical",
-      "owner": "Crocs, Inc.",
-      "serialNumber": "78549102",
-      "description": "Jibbitz shoe charms and Crocs hole clogs are aggressively defended in federal court and DMCA.",
-      "alternatives": ["Shoe Hole Charms", "Clog Pin Accessories", "Clog Decoration Bits"],
-      "keywords": ["crocs", "croc charms", "jibbitz", "jibbit"]
+      "owner": "Yeti Coolers, LLC",
+      "serialNumber": "86791048",
+      "description": "Rambler tumblers, insulated coolers, magnetic sliders.",
+      "alternatives": [
+        "Double-Wall Vacuum Tumbler",
+        "Rugged Outdoor Cooler Cup",
+        "Stainless Rambler Style"
+      ],
+      "keywords": [
+        "yeti",
+        "yeti tumbler",
+        "yeti cup",
+        "yeti cooler"
+      ]
     },
     {
       "id": "tm-043",
-      "phrase": "Yeti",
-      "class": "021, 018",
+      "phrase": "Hydro Flask",
+      "class": "021",
       "risk": "critical",
-      "owner": "YETI Coolers, LLC",
-      "serialNumber": "77189402",
-      "description": "Tumblers, coolers, handles, and accessories frequently struck for using 'Yeti' in tags.",
-      "alternatives": ["Heavy-Duty Insulated Rambler", "Rugged Outdoor Tumbler", "Double-Wall Ice Cooler"],
-      "keywords": ["yeti", "yeti tumbler", "yeti rambler", "yeti cooler"]
+      "owner": "Helen of Troy Limited",
+      "serialNumber": "85291048",
+      "description": "Wide mouth insulated water bottles with flex caps.",
+      "alternatives": [
+        "Wide-Mouth Insulated Flask",
+        "Thermal Sport Water Bottle"
+      ],
+      "keywords": [
+        "hydro flask",
+        "hydroflask",
+        "hydroflask bottle"
+      ]
     },
     {
       "id": "tm-044",
-      "phrase": "Dumb Blonde",
-      "class": "025",
-      "risk": "high",
-      "owner": "Private Trademark Holder",
-      "serialNumber": "87123984",
-      "description": "Registered on t-shirts and hats. Traps many humorous slogan creators.",
-      "alternatives": ["Witty Blonde Humor", "Funny Sarcastic Tee", "Blonde Attitude Graphic"],
-      "keywords": ["dumb blonde"]
+      "phrase": "Tupperware",
+      "class": "021",
+      "risk": "critical",
+      "owner": "Dart Industries Inc.",
+      "serialNumber": "71592019",
+      "description": "Commonly misused generic term for plastic food containers.",
+      "alternatives": [
+        "Reusable Food Storage Box",
+        "Airtight Meal Prep Container",
+        "BPA-Free Plastic Bowl"
+      ],
+      "keywords": [
+        "tupperware",
+        "tupperware container",
+        "tupperware bowl"
+      ]
     },
     {
       "id": "tm-045",
-      "phrase": "Blessed Mama",
-      "class": "025",
-      "risk": "medium",
-      "owner": "Various active marks",
-      "serialNumber": "87541290",
-      "description": "Certain typographic arrangements and apparel usages have trademark claims.",
-      "alternatives": ["Grateful Mother", "Thankful & Blessed Mom", "Loved Mother Heart"],
-      "keywords": ["blessed mama", "blessed mom"]
+      "phrase": "Thermos",
+      "class": "021",
+      "risk": "critical",
+      "owner": "Thermos L.L.C.",
+      "serialNumber": "71029481",
+      "description": "Vacuum insulated food jars and drinkware.",
+      "alternatives": [
+        "Vacuum Thermal Flask",
+        "Insulated Food Jar",
+        "Thermal Beverage Bottle"
+      ],
+      "keywords": [
+        "thermos",
+        "thermos flask",
+        "thermos bottle"
+      ]
     },
     {
       "id": "tm-046",
-      "phrase": "Girl Boss",
-      "class": "025, 016",
+      "phrase": "Pyrex",
+      "class": "021",
       "risk": "high",
-      "owner": "Girlboss Media, Inc.",
-      "serialNumber": "86451290",
-      "description": "Registered for clothing, stationery, books, and planners.",
-      "alternatives": ["Female Founder", "Boss Lady Leader", "Women in Power", "Ambitious Woman"],
-      "keywords": ["girlboss", "girl boss", "girl bosses"]
+      "owner": "Corelle Brands LLC",
+      "serialNumber": "71092847",
+      "description": "Borosilicate glassware, glass baking dishes, measuring cups.",
+      "alternatives": [
+        "Heat-Resistant Glass Dish",
+        "Tempered Glass Measuring Cup"
+      ],
+      "keywords": [
+        "pyrex",
+        "pyrex glass",
+        "pyrex bowl"
+      ]
     },
     {
       "id": "tm-047",
-      "phrase": "Nail Polish",
-      "class": "003",
+      "phrase": "Mason Jar",
+      "class": "021",
       "risk": "medium",
-      "owner": "Specific brand combo risks",
-      "serialNumber": "N/A",
-      "description": "General term is safe, but paired with 'Shellac' (CND) or 'Gelish' triggers trademark claims.",
-      "alternatives": ["UV Gel Lacquer", "Longwear Nail Varnish", "Salon Manicure Polish"],
-      "keywords": ["shellac", "gelish"]
+      "owner": "Newell Brands (Ball/Mason)",
+      "serialNumber": "71294801",
+      "description": "Glass preserving jars with two-piece screw lids.",
+      "alternatives": [
+        "Glass Canning Jar",
+        "Vintage Glass Preserving Jar",
+        "Rustic Glass Drinkware"
+      ],
+      "keywords": [
+        "mason jar",
+        "mason jars",
+        "ball mason jar"
+      ]
     },
     {
       "id": "tm-048",
-      "phrase": "Keep Calm and Carry On",
-      "class": "025, 016, 021",
+      "phrase": "Corkcicle",
+      "class": "021",
       "risk": "high",
-      "owner": "Keep Calm and Carry On Ltd (UK/EU Mark)",
-      "serialNumber": "UK00002578507",
-      "description": "Subject to active European and UK trademark enforcement.",
-      "alternatives": ["Stay Strong and Move Forward", "Peaceful Mind Graphic", "Stay Composed Vintage Poster"],
-      "keywords": ["keep calm and carry on", "keep calm"]
+      "owner": "Corkcicle LLC",
+      "serialNumber": "85940192",
+      "description": "Wine chillers, canteens, stemless tumblers.",
+      "alternatives": [
+        "Stemless Triple-Insulated Cup",
+        "Wine Chiller Canteen"
+      ],
+      "keywords": [
+        "corkcicle",
+        "corkcicle tumbler"
+      ]
     },
     {
       "id": "tm-049",
-      "phrase": "Elf on the Shelf",
-      "class": "028, 016, 025",
+      "phrase": "Owala",
+      "class": "021",
       "risk": "critical",
-      "owner": "CCA and B, LLC (The Lumistella Company)",
-      "serialNumber": "78749102",
-      "description": "Extremely aggressive holiday takedowns for elf clothes, props, and adoption kits.",
-      "alternatives": ["Holiday Scout Elf Costume", "Christmas Shelf Doll Prop", "Festive Mischief Elf Props"],
-      "keywords": ["elf on the shelf", "elf on a shelf", "scout elf", "lumistella"]
+      "owner": "Trove Brands, LLC",
+      "serialNumber": "90291048",
+      "description": "FreeSip insulated water bottles with built-in straw.",
+      "alternatives": [
+        "Dual-Sip Sport Water Bottle",
+        "Built-In Straw Insulated Flask"
+      ],
+      "keywords": [
+        "owala",
+        "owala freesip",
+        "owala bottle"
+      ]
     },
     {
       "id": "tm-050",
+      "phrase": "Brumate",
+      "class": "021",
+      "risk": "high",
+      "owner": "Brumate Inc.",
+      "serialNumber": "87291048",
+      "description": "Can coolers, insulated wine tumblers.",
+      "alternatives": [
+        "Slim Can Cooler Sleeve",
+        "Triple-Insulated Beverage Holder"
+      ],
+      "keywords": [
+        "brumate",
+        "brümate",
+        "brumate trio"
+      ]
+    },
+    {
+      "id": "tm-051",
+      "phrase": "Simple Modern",
+      "class": "021",
+      "risk": "high",
+      "owner": "Simple Modern Foundation",
+      "serialNumber": "86940195",
+      "description": "Trek tumblers and stainless drinkware.",
+      "alternatives": [
+        "Modern Stainless Tumbler",
+        "Ergonomic Handle Drink Cup"
+      ],
+      "keywords": [
+        "simple modern",
+        "simplemodern",
+        "simple modern tumbler"
+      ]
+    },
+    {
+      "id": "tm-052",
+      "phrase": "Starbucks",
+      "class": "021",
+      "risk": "critical",
+      "owner": "Starbucks Corporation",
+      "serialNumber": "71294833",
+      "description": "Coffee cups, cold cups with green siren logo.",
+      "alternatives": [
+        "Cafe Cold Tumbler",
+        "Reusable Coffee Shop Cup",
+        "Barista Style Tumbler"
+      ],
+      "keywords": [
+        "starbucks",
+        "starbucks cup",
+        "starbucks cold cup",
+        "starbucks tumbler"
+      ]
+    },
+    {
+      "id": "tm-053",
+      "phrase": "Dunkin",
+      "class": "021",
+      "risk": "critical",
+      "owner": "DD IP Holder LLC",
+      "serialNumber": "72091847",
+      "description": "Donut and coffee branding, iced coffee cups.",
+      "alternatives": [
+        "Donut Shop Iced Cup",
+        "Morning Coffee Mug"
+      ],
+      "keywords": [
+        "dunkin",
+        "dunkin donuts",
+        "dunkin iced coffee"
+      ]
+    },
+    {
+      "id": "tm-054",
+      "phrase": "Tiffany",
+      "class": "014",
+      "risk": "critical",
+      "owner": "Tiffany and Company",
+      "serialNumber": "71294850",
+      "description": "Robin's egg blue boxes, heart lockets, silver jewelry.",
+      "alternatives": [
+        "Robin Egg Blue Jewelry",
+        "Heart Tag Silver Pendant",
+        "Classic Luxury Sterling"
+      ],
+      "keywords": [
+        "tiffany",
+        "tiffany and co",
+        "tiffany blue",
+        "tiffany heart"
+      ]
+    },
+    {
+      "id": "tm-055",
+      "phrase": "Pandora",
+      "class": "014",
+      "risk": "critical",
+      "owner": "Pandora A/S",
+      "serialNumber": "78291059",
+      "description": "Modular charm bracelets, threaded silver beads.",
+      "alternatives": [
+        "European Charm Bracelet",
+        "Interchangeable Bead Bracelet",
+        "Sterling Silver Charm"
+      ],
+      "keywords": [
+        "pandora",
+        "pandora charm",
+        "pandora bracelet"
+      ]
+    },
+    {
+      "id": "tm-056",
+      "phrase": "Cartier",
+      "class": "014",
+      "risk": "critical",
+      "owner": "Cartier International AG",
+      "serialNumber": "71294860",
+      "description": "Love bracelet screw motif, luxury wristwear.",
+      "alternatives": [
+        "Screw Motif Bangle",
+        "Luxury Friendship Bracelet",
+        "Elegance Gold Bangle"
+      ],
+      "keywords": [
+        "cartier",
+        "cartier love bracelet",
+        "cartier ring"
+      ]
+    },
+    {
+      "id": "tm-057",
+      "phrase": "Swarovski",
+      "class": "014",
+      "risk": "critical",
+      "owner": "Swarovski Aktiengesellschaft",
+      "serialNumber": "71294870",
+      "description": "Precision-cut lead crystal jewelry and figurines.",
+      "alternatives": [
+        "Faceted Austrian Crystal",
+        "High-Sparkle Glass Rhinestone",
+        "Precision Cut Gemstone"
+      ],
+      "keywords": [
+        "swarovski",
+        "swarovski crystal",
+        "swarovski crystals"
+      ]
+    },
+    {
+      "id": "tm-058",
+      "phrase": "Alex and Ani",
+      "class": "014",
+      "risk": "high",
+      "owner": "Alex and Ani, LLC",
+      "serialNumber": "78940192",
+      "description": "Expandable wire bangles and symbolic medallions.",
+      "alternatives": [
+        "Expandable Wire Bangle",
+        "Stackable Charm Bangle",
+        "Symbolic Energy Bracelet"
+      ],
+      "keywords": [
+        "alex and ani",
+        "alex & ani",
+        "alex and ani bracelet"
+      ]
+    },
+    {
+      "id": "tm-059",
+      "phrase": "Kendra Scott",
+      "class": "014",
+      "risk": "critical",
+      "owner": "Kendra Scott, LLC",
+      "serialNumber": "85291050",
+      "description": "Elisa oval pendant necklace and filigree earrings.",
+      "alternatives": [
+        "Framed Oval Gem Necklace",
+        "Filigree Drop Earrings",
+        "Petite Stone Pendant"
+      ],
+      "keywords": [
+        "kendra scott",
+        "kendra scott necklace",
+        "elisa necklace"
+      ]
+    },
+    {
+      "id": "tm-060",
+      "phrase": "Rolex",
+      "class": "014",
+      "risk": "critical",
+      "owner": "Rolex Watch U.S.A., Inc.",
+      "serialNumber": "71294880",
+      "description": "Luxury watches, crown logos, oyster perpetual designs.",
+      "alternatives": [
+        "Swiss Precision Timepiece",
+        "Luxury Automatic Wristwatch"
+      ],
+      "keywords": [
+        "rolex",
+        "rolex watch",
+        "rolex submariner"
+      ]
+    },
+    {
+      "id": "tm-061",
+      "phrase": "David Yurman",
+      "class": "014",
+      "risk": "critical",
+      "owner": "David Yurman IP LLC",
+      "serialNumber": "74920194",
+      "description": "Cable twist silver bracelets and crossover rings.",
+      "alternatives": [
+        "Cable Twisted Silver Bangle",
+        "Helix Wire Cuff Bracelet"
+      ],
+      "keywords": [
+        "david yurman",
+        "david yurman cable",
+        "david yurman bracelet"
+      ]
+    },
+    {
+      "id": "tm-062",
+      "phrase": "Lego",
+      "class": "028",
+      "risk": "critical",
+      "owner": "LEGO Juris A/S",
+      "serialNumber": "71294890",
+      "description": "Plastic interlocking building bricks and minifigures.",
+      "alternatives": [
+        "Interlocking Building Bricks",
+        "Modular Construction Blocks",
+        "Toy Brick Figures"
+      ],
+      "keywords": [
+        "lego",
+        "legos",
+        "lego minifigure",
+        "lego brick"
+      ]
+    },
+    {
+      "id": "tm-063",
+      "phrase": "Nintendo",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Nintendo of America Inc.",
+      "serialNumber": "73291055",
+      "description": "Video game consoles, Mario, Zelda, and retro gaming items.",
+      "alternatives": [
+        "Retro 8-Bit Gaming",
+        "Classic Console Gaming Art",
+        "Nostalgic Gamer Collectible"
+      ],
+      "keywords": [
+        "nintendo",
+        "nintendo switch",
+        "super mario",
+        "zelda"
+      ]
+    },
+    {
+      "id": "tm-064",
+      "phrase": "Pokemon",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Nintendo / Creatures / GAME FREAK",
+      "serialNumber": "75291060",
+      "description": "Pocket monsters, Pikachu, Pokeball designs.",
+      "alternatives": [
+        "Monster Tamer Art",
+        "Pocket Creature Fan Art",
+        "Anime Battle Critters"
+      ],
+      "keywords": [
+        "pokemon",
+        "pokémon",
+        "pikachu",
+        "pokeball"
+      ]
+    },
+    {
+      "id": "tm-065",
+      "phrase": "Play-Doh",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Hasbro, Inc.",
+      "serialNumber": "71692019",
+      "description": "Modeling compound and sensory dough kits.",
+      "alternatives": [
+        "Non-Toxic Modeling Dough",
+        "Sensory Clay Play Kit",
+        "Colorful Sculpting Paste"
+      ],
+      "keywords": [
+        "play-doh",
+        "playdoh",
+        "play doh"
+      ]
+    },
+    {
+      "id": "tm-066",
+      "phrase": "Nerf",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Hasbro, Inc.",
+      "serialNumber": "72391035",
+      "description": "Foam dart blasters, soft foam balls, target games.",
+      "alternatives": [
+        "Soft Foam Dart Blaster",
+        "Foam Target Shooting Toy",
+        "Safe Foam Projectile Game"
+      ],
+      "keywords": [
+        "nerf",
+        "nerf gun",
+        "nerf darts",
+        "nerf war"
+      ]
+    },
+    {
+      "id": "tm-067",
+      "phrase": "Frisbee",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Wham-O Holding Limited",
+      "serialNumber": "71629480",
+      "description": "Common genericized mark for flying plastic discs.",
+      "alternatives": [
+        "Flying Disc Toy",
+        "Aerodynamic Toss Ring",
+        "Ultimate Park Disc"
+      ],
+      "keywords": [
+        "frisbee",
+        "frisbees",
+        "frisbee golf"
+      ]
+    },
+    {
+      "id": "tm-068",
+      "phrase": "Hula Hoop",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Wham-O Holding Limited",
+      "serialNumber": "71729480",
+      "description": "Plastic twirling exercise rings.",
+      "alternatives": [
+        "Fitness Waist Hoop",
+        "Twirling Dance Ring",
+        "Weighted Exercise Loop"
+      ],
+      "keywords": [
+        "hula hoop",
+        "hulahoop",
+        "hula hoops"
+      ]
+    },
+    {
+      "id": "tm-069",
+      "phrase": "Ping Pong",
+      "class": "028",
+      "risk": "high",
+      "owner": "Escalade Sports, Inc.",
+      "serialNumber": "71029485",
+      "description": "Table tennis equipment, paddles, and balls.",
+      "alternatives": [
+        "Table Tennis Paddle",
+        "Indoor Table Ball Game",
+        "Tabletop Racquet Sport"
+      ],
+      "keywords": [
+        "ping pong",
+        "pingpong",
+        "ping-pong"
+      ]
+    },
+    {
+      "id": "tm-070",
+      "phrase": "Monopoly",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Hasbro, Inc.",
+      "serialNumber": "71391048",
+      "description": "Board games, Get Out of Jail Free card designs.",
+      "alternatives": [
+        "Property Trading Board Game",
+        "Real Estate Tycoon Game"
+      ],
+      "keywords": [
+        "monopoly",
+        "monopoly board",
+        "monopoly money"
+      ]
+    },
+    {
+      "id": "tm-071",
+      "phrase": "Scrabble",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Hasbro / Mattel",
+      "serialNumber": "71592038",
+      "description": "Wooden letter tiles for DIY jewelry and crafts.",
+      "alternatives": [
+        "Wooden Letter Tiles",
+        "Spelling Game Wood Tiles",
+        "Alphabet Craft Squares"
+      ],
+      "keywords": [
+        "scrabble",
+        "scrabble tiles",
+        "scrabble letter"
+      ]
+    },
+    {
+      "id": "tm-072",
+      "phrase": "Squishmallows",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Kelly Toys Holdings LLC",
+      "serialNumber": "87591048",
+      "description": "Plush marshmallow-soft stuffed animal toys.",
+      "alternatives": [
+        "Ultra-Soft Plushie Critter",
+        "Marshmallow Stuffed Toy",
+        "Kawaii Squishy Pillow Plush"
+      ],
+      "keywords": [
+        "squishmallow",
+        "squishmallows",
+        "squish mallow"
+      ]
+    },
+    {
+      "id": "tm-073",
+      "phrase": "Funko Pop",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Funko, LLC",
+      "serialNumber": "85291060",
+      "description": "Vinyl bobblehead figures with oversized heads.",
+      "alternatives": [
+        "Chibi Vinyl Figure",
+        "Stylized Collectible Toy",
+        "Oversized Head Figure"
+      ],
+      "keywords": [
+        "funko",
+        "funko pop",
+        "pop vinyl"
+      ]
+    },
+    {
+      "id": "tm-074",
+      "phrase": "Beanie Babies",
+      "class": "028",
+      "risk": "high",
+      "owner": "Ty Inc.",
+      "serialNumber": "74291048",
+      "description": "Pellet-filled plush toys with heart tags.",
+      "alternatives": [
+        "Pellet-Filled Pocket Plush",
+        "Mini Stuffed Animal Toy"
+      ],
+      "keywords": [
+        "beanie baby",
+        "beanie babies",
+        "ty beanie"
+      ]
+    },
+    {
+      "id": "tm-075",
+      "phrase": "Rollerblade",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Rollerblade USA",
+      "serialNumber": "73491028",
+      "description": "Genericized trademark for inline skates.",
+      "alternatives": [
+        "Inline Skates",
+        "Multi-Wheel Street Skates",
+        "Fitness Inline Gliders"
+      ],
+      "keywords": [
+        "rollerblade",
+        "rollerblades",
+        "rollerblading"
+      ]
+    },
+    {
+      "id": "tm-076",
+      "phrase": "Jet Ski",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Kawasaki Jukogyo Kabushiki Kaisha",
+      "serialNumber": "72491028",
+      "description": "Personal watercraft for lake and ocean sports.",
+      "alternatives": [
+        "Personal Watercraft",
+        "PWC Wave Runner",
+        "Aquatic Motor Craft"
+      ],
+      "keywords": [
+        "jet ski",
+        "jetski",
+        "jet skis"
+      ]
+    },
+    {
+      "id": "tm-077",
+      "phrase": "Post-it",
+      "class": "016",
+      "risk": "critical",
+      "owner": "3M Company",
+      "serialNumber": "73291060",
+      "description": "Self-adhesive repositionable sticky note pads.",
+      "alternatives": [
+        "Self-Adhesive Sticky Notes",
+        "Removable Memo Pads",
+        "Repositionable Note Flags"
+      ],
+      "keywords": [
+        "post-it",
+        "post it",
+        "post-its",
+        "postit"
+      ]
+    },
+    {
+      "id": "tm-078",
+      "phrase": "Sharpie",
+      "class": "016",
+      "risk": "critical",
+      "owner": "Sanford, L.P. (Newell Brands)",
+      "serialNumber": "72291060",
+      "description": "Permanent marker pens for signing and crafting.",
+      "alternatives": [
+        "Permanent Fine Marker Pen",
+        "Waterproof Quick-Dry Marker",
+        "Alcohol-Based Art Pen"
+      ],
+      "keywords": [
+        "sharpie",
+        "sharpies",
+        "sharpie marker"
+      ]
+    },
+    {
+      "id": "tm-079",
+      "phrase": "Bubble Wrap",
+      "class": "016",
+      "risk": "critical",
+      "owner": "Sealed Air Corporation",
+      "serialNumber": "72091850",
+      "description": "Air-cushioned plastic packaging material.",
+      "alternatives": [
+        "Air Cushion Packing Film",
+        "Protective Bubble Cushioning",
+        "Inflatable Air Cell Wrap"
+      ],
+      "keywords": [
+        "bubble wrap",
+        "bubblewrap",
+        "bubble packaging"
+      ]
+    },
+    {
+      "id": "tm-080",
+      "phrase": "Band-Aid",
+      "class": "016",
+      "risk": "critical",
+      "owner": "Johnson & Johnson",
+      "serialNumber": "71192840",
+      "description": "Adhesive medical bandages and first-aid strips.",
+      "alternatives": [
+        "Adhesive Wound Strips",
+        "Sterile First Aid Bandages",
+        "Flexible Fabric Plasters"
+      ],
+      "keywords": [
+        "band-aid",
+        "band aid",
+        "bandaid",
+        "band-aids"
+      ]
+    },
+    {
+      "id": "tm-081",
+      "phrase": "Kleenex",
+      "class": "016",
+      "risk": "critical",
+      "owner": "Kimberly-Clark Worldwide, Inc.",
+      "serialNumber": "71201948",
+      "description": "Disposable facial tissues and wipes.",
+      "alternatives": [
+        "Facial Tissue Paper",
+        "Soft Pocket Handkerchief Wipes",
+        "Disposable Paper Wipes"
+      ],
+      "keywords": [
+        "kleenex",
+        "kleenex tissue",
+        "kleenexes"
+      ]
+    },
+    {
+      "id": "tm-082",
+      "phrase": "Scotch Tape",
+      "class": "016",
+      "risk": "critical",
+      "owner": "3M Company",
+      "serialNumber": "71294895",
+      "description": "Transparent cellulose adhesive tape.",
+      "alternatives": [
+        "Transparent Office Tape",
+        "Clear Adhesive Film Tape",
+        "Cellulose Craft Tape"
+      ],
+      "keywords": [
+        "scotch tape",
+        "scotchtape",
+        "3m scotch"
+      ]
+    },
+    {
+      "id": "tm-083",
+      "phrase": "White-Out",
+      "class": "016",
+      "risk": "high",
+      "owner": "Societe BIC (Wite-Out)",
+      "serialNumber": "72291070",
+      "description": "Correction fluid, correction tape pens.",
+      "alternatives": [
+        "Correction Fluid Liquid",
+        "Dry Correction Tape Dispenser",
+        "White Masking Fluid"
+      ],
+      "keywords": [
+        "white-out",
+        "white out",
+        "wite-out",
+        "wite out"
+      ]
+    },
+    {
+      "id": "tm-084",
+      "phrase": "Mod Podge",
+      "class": "016",
+      "risk": "critical",
+      "owner": "Plaid Enterprises, Inc.",
+      "serialNumber": "72391040",
+      "description": "Decoupage sealer, glue, and finish compound.",
+      "alternatives": [
+        "All-in-One Decoupage Medium",
+        "Matte Craft Sealer Glue",
+        "Glossy Collage Adhesive"
+      ],
+      "keywords": [
+        "mod podge",
+        "modpodge",
+        "mod podge glue"
+      ]
+    },
+    {
+      "id": "tm-085",
+      "phrase": "Photoshop",
+      "class": "009",
+      "risk": "critical",
+      "owner": "Adobe Inc.",
+      "serialNumber": "73891048",
+      "description": "Digital graphics editing and photo manipulation software.",
+      "alternatives": [
+        "Digital Photo Editor",
+        "Bitmap Image Manipulation",
+        "Raster Art Software"
+      ],
+      "keywords": [
+        "photoshop",
+        "photoshoped",
+        "photoshop template"
+      ]
+    },
+    {
+      "id": "tm-086",
+      "phrase": "Velcro",
+      "class": "020",
+      "risk": "critical",
+      "owner": "Velcro IP Holdings LLC",
+      "serialNumber": "71692039",
+      "description": "Hook and loop fastener tapes for clothing and crafts.",
+      "alternatives": [
+        "Hook and Loop Fasteners",
+        "Touch-and-Close Tape",
+        "Self-Gripping Strap"
+      ],
+      "keywords": [
+        "velcro",
+        "velcro strap",
+        "velcro tape"
+      ]
+    },
+    {
+      "id": "tm-087",
+      "phrase": "Memory Foam",
+      "class": "020",
+      "risk": "medium",
+      "owner": "Various Genericized/Disputed",
+      "serialNumber": "74291050",
+      "description": "Viscoelastic polyurethane foam pillows and toppers.",
+      "alternatives": [
+        "Viscoelastic Foam Cushion",
+        "Contour Pressure-Relief Foam",
+        "High-Density Body Pillow"
+      ],
+      "keywords": [
+        "memory foam",
+        "memoryfoam"
+      ]
+    },
+    {
+      "id": "tm-088",
+      "phrase": "Jacuzzi",
+      "class": "020",
+      "risk": "critical",
+      "owner": "Jacuzzi Inc.",
+      "serialNumber": "72291080",
+      "description": "Whirlpool baths, hot tubs, and hydrotherapy spas.",
+      "alternatives": [
+        "Whirlpool Hot Tub",
+        "Hydrotherapy Spa Bath",
+        "Heated Soaking Jacuzzi Style"
+      ],
+      "keywords": [
+        "jacuzzi",
+        "jacuzzis",
+        "jacuzzi tub"
+      ]
+    },
+    {
+      "id": "tm-089",
+      "phrase": "Dumpster",
+      "class": "020",
+      "risk": "high",
+      "owner": "Dempster Brothers (Historic)",
+      "serialNumber": "71391050",
+      "description": "Dumpster fire decals, large mobile trash containers.",
+      "alternatives": [
+        "Mobile Waste Bin",
+        "Trash Receptacle Decal",
+        "Heavy-Duty Refuse Container"
+      ],
+      "keywords": [
+        "dumpster",
+        "dumpster fire"
+      ]
+    },
+    {
+      "id": "tm-090",
+      "phrase": "Taser",
+      "class": "009",
+      "risk": "critical",
+      "owner": "Axon Enterprise, Inc.",
+      "serialNumber": "72491035",
+      "description": "Electroshock self-defense weapons and holsters.",
+      "alternatives": [
+        "Stun Gun Self-Defense Device",
+        "Conducted Electrical Weapon",
+        "Personal Protection Stunner"
+      ],
+      "keywords": [
+        "taser",
+        "tasers",
+        "stun taser"
+      ]
+    },
+    {
+      "id": "tm-091",
+      "phrase": "Popsicle",
+      "class": "021",
+      "risk": "critical",
+      "owner": "Unilever United States, Inc.",
+      "serialNumber": "71192850",
+      "description": "Frozen ice treats on wooden sticks and silicone molds.",
+      "alternatives": [
+        "Frozen Ice Pop Mold",
+        "Ice Juice Bar Stick",
+        "Frozen Fruit Pop"
+      ],
+      "keywords": [
+        "popsicle",
+        "popsicles",
+        "popsicle mold",
+        "popsicle stick"
+      ]
+    },
+    {
+      "id": "tm-092",
+      "phrase": "Chapstick",
+      "class": "009",
+      "risk": "critical",
+      "owner": "Suave Brands Company",
+      "serialNumber": "71092850",
+      "description": "Lip balm tubes, keychains, and holders.",
+      "alternatives": [
+        "Lip Balm Sleeve Holder",
+        "Moisturizing Lip Salve",
+        "Beeswax Lip Butter"
+      ],
+      "keywords": [
+        "chapstick",
+        "chapstick holder",
+        "chapstick keychain"
+      ]
+    },
+    {
+      "id": "tm-093",
+      "phrase": "Ziploc",
+      "class": "021",
+      "risk": "critical",
+      "owner": "S.C. Johnson & Son, Inc.",
+      "serialNumber": "72391045",
+      "description": "Zipper-sealed plastic storage bags.",
+      "alternatives": [
+        "Zip-Top Resealable Bag",
+        "Press-and-Seal Plastic Pouch",
+        "Airtight Snack Bag"
+      ],
+      "keywords": [
+        "ziploc",
+        "ziploc bag",
+        "ziploc bags",
+        "ziplock"
+      ]
+    },
+    {
+      "id": "tm-094",
+      "phrase": "Q-tips",
+      "class": "021",
+      "risk": "critical",
+      "owner": "Unilever United States, Inc.",
+      "serialNumber": "71294898",
+      "description": "Cotton swabs on sticks for hygiene and crafting.",
+      "alternatives": [
+        "Cotton Swabs",
+        "Double-Tipped Cotton Buds",
+        "Precision Craft Applicators"
+      ],
+      "keywords": [
+        "q-tips",
+        "q tips",
+        "qtips",
+        "q-tip"
+      ]
+    },
+    {
+      "id": "tm-095",
+      "phrase": "Vaseline",
+      "class": "021",
+      "risk": "critical",
+      "owner": "Unilever United States, Inc.",
+      "serialNumber": "71029490",
+      "description": "Petroleum jelly moisturizing ointment.",
+      "alternatives": [
+        "Pure Petroleum Jelly",
+        "Deep Moisture Ointment",
+        "Skin Protectant Balm"
+      ],
+      "keywords": [
+        "vaseline",
+        "vaseline jelly"
+      ]
+    },
+    {
+      "id": "tm-096",
+      "phrase": "Kevlar",
+      "class": "025",
+      "risk": "critical",
+      "owner": "DuPont Safety & Construction",
+      "serialNumber": "72491040",
+      "description": "Para-aramid synthetic bullet-resistant fiber.",
+      "alternatives": [
+        "High-Tensile Aramid Fiber",
+        "Ballistic Reinforced Fabric",
+        "Cut-Resistant Weave"
+      ],
+      "keywords": [
+        "kevlar",
+        "kevlar fabric"
+      ]
+    },
+    {
+      "id": "tm-097",
+      "phrase": "Walkman",
+      "class": "009",
+      "risk": "high",
+      "owner": "Sony Corporation",
+      "serialNumber": "73291070",
+      "description": "Portable cassette audio players and retro decals.",
+      "alternatives": [
+        "Vintage Portable Cassette Player",
+        "Retro Pocket Audio Player",
+        "80s Tape Deck Player"
+      ],
+      "keywords": [
+        "walkman",
+        "sony walkman"
+      ]
+    },
+    {
+      "id": "tm-098",
+      "phrase": "Monster Energy",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Monster Energy Company",
+      "serialNumber": "70122166",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Energy Drink Logo Graphic",
+        "Extreme Sports Claw Emblem"
+      ],
+      "keywords": [
+        "monster energy",
+        "monsterenergy"
+      ]
+    },
+    {
+      "id": "tm-099",
+      "phrase": "Red Bull",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Red Bull GmbH",
+      "serialNumber": "70123400",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Energy Boost Bull Graphic",
+        "Aero Sports Team Art"
+      ],
+      "keywords": [
+        "red bull",
+        "redbull"
+      ]
+    },
+    {
+      "id": "tm-100",
+      "phrase": "Star Wars",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Lucasfilm Ltd. LLC",
+      "serialNumber": "70124634",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Galactic Space Saga",
+        "Sci-Fi Space Odyssey",
+        "Interstellar Warrior"
+      ],
+      "keywords": [
+        "star wars",
+        "starwars"
+      ]
+    },
+    {
+      "id": "tm-101",
+      "phrase": "Baby Yoda",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Lucasfilm Ltd. LLC",
+      "serialNumber": "70125868",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Green Alien Child",
+        "Galactic Foundling Alien",
+        "Little Space Pod Creature"
+      ],
+      "keywords": [
+        "baby yoda",
+        "babyyoda"
+      ]
+    },
+    {
+      "id": "tm-102",
+      "phrase": "Grogu",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Lucasfilm Ltd. LLC",
+      "serialNumber": "70127102",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Space Foundling Clan",
+        "Mystic Little Force Alien"
+      ],
+      "keywords": [
+        "grogu",
+        "grogu"
+      ]
+    },
+    {
+      "id": "tm-103",
+      "phrase": "The Mandalorian",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Lucasfilm Ltd. LLC",
+      "serialNumber": "70128336",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Galactic Bounty Hunter",
+        "Bespoke Armor Warrior"
+      ],
+      "keywords": [
+        "the mandalorian",
+        "themandalorian"
+      ]
+    },
+    {
+      "id": "tm-104",
+      "phrase": "Darth Vader",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Lucasfilm Ltd. LLC",
+      "serialNumber": "70129570",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Dark Helmet Space Lord",
+        "Galactic Empire Commander"
+      ],
+      "keywords": [
+        "darth vader",
+        "darthvader"
+      ]
+    },
+    {
+      "id": "tm-105",
+      "phrase": "Hello Kitty",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Sanrio Company, Ltd.",
+      "serialNumber": "70130804",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Cute Japanese Bow Cat",
+        "Kawaii Whiskered Mascot"
+      ],
+      "keywords": [
+        "hello kitty",
+        "hellokitty"
+      ]
+    },
+    {
+      "id": "tm-106",
+      "phrase": "Kuromi",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Sanrio Company, Ltd.",
+      "serialNumber": "70132038",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Goth Bunny Anime Art",
+        "Kawaii Punk Character"
+      ],
+      "keywords": [
+        "kuromi",
+        "kuromi"
+      ]
+    },
+    {
+      "id": "tm-107",
+      "phrase": "Cinnamoroll",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Sanrio Company, Ltd.",
+      "serialNumber": "70133272",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Fluffy White Puppy Mascot",
+        "Sweet Pastel Cloud Dog"
+      ],
+      "keywords": [
+        "cinnamoroll",
+        "cinnamoroll"
+      ]
+    },
+    {
+      "id": "tm-108",
+      "phrase": "My Melody",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Sanrio Company, Ltd.",
+      "serialNumber": "70134506",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Pink Hooded Bunny Art",
+        "Sweet Cottagecore Bunny"
+      ],
+      "keywords": [
+        "my melody",
+        "mymelody"
+      ]
+    },
+    {
+      "id": "tm-109",
+      "phrase": "Snoopy",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Peanuts Worldwide LLC",
+      "serialNumber": "70135740",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Classic Comic Beagle",
+        "Cartoon Dog on Doghouse"
+      ],
+      "keywords": [
+        "snoopy",
+        "snoopy"
+      ]
+    },
+    {
+      "id": "tm-110",
+      "phrase": "Peanuts",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Peanuts Worldwide LLC",
+      "serialNumber": "70136974",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Retro Comic Strip Art",
+        "Nostalgic Cartoon Gang"
+      ],
+      "keywords": [
+        "peanuts",
+        "peanuts"
+      ]
+    },
+    {
+      "id": "tm-111",
+      "phrase": "Charlie Brown",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Peanuts Worldwide LLC",
+      "serialNumber": "70138208",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Zig-Zag Shirt Cartoon Boy",
+        "Nostalgic Comic Strip Boy"
+      ],
+      "keywords": [
+        "charlie brown",
+        "charliebrown"
+      ]
+    },
+    {
+      "id": "tm-112",
       "phrase": "Grinch",
-      "class": "025, 028, 016",
+      "class": "025",
       "risk": "critical",
       "owner": "Dr. Seuss Enterprises, L.P.",
-      "serialNumber": "74561298",
-      "description": "Green furry hand holding ornament, Grinch quotes, and name cause hundreds of holiday shop bans.",
-      "alternatives": ["Holiday Green Grouch", "Green Christmas Mischief Guy", "Mean Green Holiday Creature"],
-      "keywords": ["grinch", "the grinch", "grinchmas", "how the grinch stole christmas"]
+      "serialNumber": "70139442",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Mean Green Holiday Stealer",
+        "Holiday Whoville Creature",
+        "Christmas Sneak Monster"
+      ],
+      "keywords": [
+        "grinch",
+        "grinch"
+      ]
+    },
+    {
+      "id": "tm-113",
+      "phrase": "Dr. Seuss",
+      "class": "016",
+      "risk": "critical",
+      "owner": "Dr. Seuss Enterprises, L.P.",
+      "serialNumber": "70140676",
+      "description": "Protected intellectual property under USPTO Class 016. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Rhyming Whimsical Storybook",
+        "Nonsense Verse Illustrator"
+      ],
+      "keywords": [
+        "dr. seuss",
+        "drseuss"
+      ]
+    },
+    {
+      "id": "tm-114",
+      "phrase": "Cat in the Hat",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Dr. Seuss Enterprises, L.P.",
+      "serialNumber": "70141910",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Striped Stovepipe Hat Cat",
+        "Mischievous Tall Hat Feline"
+      ],
+      "keywords": [
+        "cat in the hat",
+        "catinthehat"
+      ]
+    },
+    {
+      "id": "tm-115",
+      "phrase": "Winnie the Pooh",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Disney Enterprises, Inc.",
+      "serialNumber": "70143144",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Hundred Acre Wood Bear",
+        "Honey-Loving Vintage Bear"
+      ],
+      "keywords": [
+        "winnie the pooh",
+        "winniethepooh"
+      ]
+    },
+    {
+      "id": "tm-116",
+      "phrase": "Tigger",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Disney Enterprises, Inc.",
+      "serialNumber": "70144378",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Bouncing Striped Tiger",
+        "Spring-Tailed Jungle Critter"
+      ],
+      "keywords": [
+        "tigger",
+        "tigger"
+      ]
+    },
+    {
+      "id": "tm-117",
+      "phrase": "Eeyore",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Disney Enterprises, Inc.",
+      "serialNumber": "70145612",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Gloomy Gray Plush Donkey",
+        "Gentle Melancholy Donkey"
+      ],
+      "keywords": [
+        "eeyore",
+        "eeyore"
+      ]
+    },
+    {
+      "id": "tm-118",
+      "phrase": "Care Bears",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Those Characters From Cleveland",
+      "serialNumber": "70146846",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Rainbow Belly Pastel Bears",
+        "Nostalgic Cloud Kingdom Bears"
+      ],
+      "keywords": [
+        "care bears",
+        "carebears"
+      ]
+    },
+    {
+      "id": "tm-119",
+      "phrase": "Bluey",
+      "class": "025",
+      "risk": "critical",
+      "owner": "BBC Studios Distribution Ltd",
+      "serialNumber": "70148080",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Australian Blue Heeler Pup",
+        "Playful Cattle Dog Family"
+      ],
+      "keywords": [
+        "bluey",
+        "bluey"
+      ]
+    },
+    {
+      "id": "tm-120",
+      "phrase": "Bingo",
+      "class": "025",
+      "risk": "critical",
+      "owner": "BBC Studios Distribution Ltd",
+      "serialNumber": "70149314",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Red Heeler Little Sister",
+        "Sweet Australian Puppy"
+      ],
+      "keywords": [
+        "bingo",
+        "bingo"
+      ]
+    },
+    {
+      "id": "tm-121",
+      "phrase": "Peppa Pig",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Entertainment One UK Limited",
+      "serialNumber": "70150548",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Muddy Puddle Cartoon Piglet",
+        "British Pink Cartoon Pig"
+      ],
+      "keywords": [
+        "peppa pig",
+        "peppapig"
+      ]
+    },
+    {
+      "id": "tm-122",
+      "phrase": "Paw Patrol",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Spin Master Ltd.",
+      "serialNumber": "70151782",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Rescue Pup Squad",
+        "Adventure Bay Canine Heroes"
+      ],
+      "keywords": [
+        "paw patrol",
+        "pawpatrol"
+      ]
+    },
+    {
+      "id": "tm-123",
+      "phrase": "CoComelon",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Moonbug Entertainment",
+      "serialNumber": "70153016",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Melon Head Sing-Along",
+        "Nursery Rhyme Musical Kids"
+      ],
+      "keywords": [
+        "cocomelon",
+        "cocomelon"
+      ]
+    },
+    {
+      "id": "tm-124",
+      "phrase": "Stranger Things",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Netflix Studios, LLC",
+      "serialNumber": "70154250",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "80s Sci-Fi Upside Down World",
+        "Hawkins Retro Mystery"
+      ],
+      "keywords": [
+        "stranger things",
+        "strangerthings"
+      ]
+    },
+    {
+      "id": "tm-125",
+      "phrase": "Wednesday Addams",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Tee and Charles Addams Foundation",
+      "serialNumber": "70155484",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Gothic Braided Academy Girl",
+        "Macabre Black Collared Dress"
+      ],
+      "keywords": [
+        "wednesday addams",
+        "wednesdayaddams"
+      ]
+    },
+    {
+      "id": "tm-126",
+      "phrase": "The Office",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Universal Television LLC",
+      "serialNumber": "70156718",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Dunder Paper Company Mockumentary",
+        "World's Best Boss Parody"
+      ],
+      "keywords": [
+        "the office",
+        "theoffice"
+      ]
+    },
+    {
+      "id": "tm-127",
+      "phrase": "Friends",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Warner Bros. Entertainment",
+      "serialNumber": "70157952",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "90s Central Perk Coffee Gang",
+        "Six Manhattan Friends Sitcom"
+      ],
+      "keywords": [
+        "friends",
+        "friends"
+      ]
+    },
+    {
+      "id": "tm-128",
+      "phrase": "Central Perk",
+      "class": "021",
+      "risk": "critical",
+      "owner": "Warner Bros. Entertainment",
+      "serialNumber": "70159186",
+      "description": "Protected intellectual property under USPTO Class 021. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Green Sofa Manhattan Cafe",
+        "90s Coffeehouse Hangout"
+      ],
+      "keywords": [
+        "central perk",
+        "centralperk"
+      ]
+    },
+    {
+      "id": "tm-129",
+      "phrase": "Grey's Anatomy",
+      "class": "025",
+      "risk": "critical",
+      "owner": "American Broadcasting Companies",
+      "serialNumber": "70160420",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Seattle Hospital Medical Drama",
+        "Surgeon Squad Scrubs"
+      ],
+      "keywords": [
+        "grey's anatomy",
+        "greysanatomy"
+      ]
+    },
+    {
+      "id": "tm-130",
+      "phrase": "Dunder Mifflin",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Universal Television LLC",
+      "serialNumber": "70161654",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Scranton Paper Wholesaler",
+        "Regional Office Paper Co"
+      ],
+      "keywords": [
+        "dunder mifflin",
+        "dundermifflin"
+      ]
+    },
+    {
+      "id": "tm-131",
+      "phrase": "Yellowstone",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Paramount Pictures Corporation",
+      "serialNumber": "70162888",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Montana Cattle Ranch Y Brand",
+        "Dutton Family Western Art"
+      ],
+      "keywords": [
+        "yellowstone",
+        "yellowstone"
+      ]
+    },
+    {
+      "id": "tm-132",
+      "phrase": "Bratz",
+      "class": "028",
+      "risk": "critical",
+      "owner": "MGA Entertainment, Inc.",
+      "serialNumber": "70164122",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Y2K Trendy Glam Dolls",
+        "Passion for Fashion Dolls"
+      ],
+      "keywords": [
+        "bratz",
+        "bratz"
+      ]
+    },
+    {
+      "id": "tm-133",
+      "phrase": "Monster High",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Mattel, Inc.",
+      "serialNumber": "70165356",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Spooky Teen Monster Dolls",
+        "Haunted High School Fashion"
+      ],
+      "keywords": [
+        "monster high",
+        "monsterhigh"
+      ]
+    },
+    {
+      "id": "tm-134",
+      "phrase": "American Girl",
+      "class": "028",
+      "risk": "critical",
+      "owner": "American Girl, LLC",
+      "serialNumber": "70166590",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Historical 18-Inch Girl Dolls",
+        "Period Costume Friend Dolls"
+      ],
+      "keywords": [
+        "american girl",
+        "americangirl"
+      ]
+    },
+    {
+      "id": "tm-135",
+      "phrase": "Cabbage Patch Kids",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Original Appalachian Artworks",
+      "serialNumber": "70167824",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Fabric Sculpted Garden Babies",
+        "Birth Certificate Yarn Dolls"
+      ],
+      "keywords": [
+        "cabbage patch kids",
+        "cabbagepatchkids"
+      ]
+    },
+    {
+      "id": "tm-136",
+      "phrase": "Polly Pocket",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Mattel, Inc.",
+      "serialNumber": "70169058",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Micro Compact Playset Doll",
+        "Pocket Clamshell Toy World"
+      ],
+      "keywords": [
+        "polly pocket",
+        "pollypocket"
+      ]
+    },
+    {
+      "id": "tm-137",
+      "phrase": "Hot Wheels",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Mattel, Inc.",
+      "serialNumber": "70170292",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Die-Cast Track Racecars",
+        "1:64 Scale Flame Dragsters"
+      ],
+      "keywords": [
+        "hot wheels",
+        "hotwheels"
+      ]
+    },
+    {
+      "id": "tm-138",
+      "phrase": "Matchbox",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Mattel, Inc.",
+      "serialNumber": "70171526",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Miniature Diecast City Vehicles",
+        "Pocket Service Fleet Cars"
+      ],
+      "keywords": [
+        "matchbox",
+        "matchbox"
+      ]
+    },
+    {
+      "id": "tm-139",
+      "phrase": "Tonka",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Hasbro, Inc.",
+      "serialNumber": "70172760",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Heavy-Duty Steel Dump Truck",
+        "Yellow Construction Toy Rig"
+      ],
+      "keywords": [
+        "tonka",
+        "tonka"
+      ]
+    },
+    {
+      "id": "tm-140",
+      "phrase": "Transformers",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Hasbro, Inc.",
+      "serialNumber": "70173994",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Shape-Shifting Alien Robots",
+        "Mechanical Vehicle Warriors"
+      ],
+      "keywords": [
+        "transformers",
+        "transformers"
+      ]
+    },
+    {
+      "id": "tm-141",
+      "phrase": "GI Joe",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Hasbro, Inc.",
+      "serialNumber": "70175228",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Special Ops Military Figures",
+        "Real American Hero Squad"
+      ],
+      "keywords": [
+        "gi joe",
+        "gijoe"
+      ]
+    },
+    {
+      "id": "tm-142",
+      "phrase": "Power Rangers",
+      "class": "028",
+      "risk": "critical",
+      "owner": "SCG Power Rangers LLC",
+      "serialNumber": "70176462",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Color-Coded Martial Arts Team",
+        "Morphing Dino Battle Squad"
+      ],
+      "keywords": [
+        "power rangers",
+        "powerrangers"
+      ]
+    },
+    {
+      "id": "tm-143",
+      "phrase": "Teenage Mutant Ninja Turtles",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Viacom International Inc.",
+      "serialNumber": "70177696",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Pizza-Loving Martial Arts Reptiles",
+        "Sewer Vigilante Team"
+      ],
+      "keywords": [
+        "teenage mutant ninja turtles",
+        "teenagemutantninjaturtles"
+      ]
+    },
+    {
+      "id": "tm-144",
+      "phrase": "TMNT",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Viacom International Inc.",
+      "serialNumber": "70178930",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Ninja Turtle Squad Art",
+        "Green Hero Pizza Fan"
+      ],
+      "keywords": [
+        "tmnt",
+        "tmnt"
+      ]
+    },
+    {
+      "id": "tm-145",
+      "phrase": "Sonic the Hedgehog",
+      "class": "028",
+      "risk": "critical",
+      "owner": "SEGA of America, Inc.",
+      "serialNumber": "70180164",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Blue Speedster Video Game Hero",
+        "Supersonic Ring Collector"
+      ],
+      "keywords": [
+        "sonic the hedgehog",
+        "sonicthehedgehog"
+      ]
+    },
+    {
+      "id": "tm-146",
+      "phrase": "Super Mario",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Nintendo of America Inc.",
+      "serialNumber": "70181398",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Mushroom Kingdom Plumber",
+        "Red Cap Jump Hero"
+      ],
+      "keywords": [
+        "super mario",
+        "supermario"
+      ]
+    },
+    {
+      "id": "tm-147",
+      "phrase": "Luigi",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Nintendo of America Inc.",
+      "serialNumber": "70182632",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Green Cap Ghost Hunter Brother",
+        "Tall Mushroom Kingdom Hero"
+      ],
+      "keywords": [
+        "luigi",
+        "luigi"
+      ]
+    },
+    {
+      "id": "tm-148",
+      "phrase": "Princess Peach",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Nintendo of America Inc.",
+      "serialNumber": "70183866",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Mushroom Castle Royal Princess",
+        "Pink Gown Royal Heroine"
+      ],
+      "keywords": [
+        "princess peach",
+        "princesspeach"
+      ]
+    },
+    {
+      "id": "tm-149",
+      "phrase": "Bowser",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Nintendo of America Inc.",
+      "serialNumber": "70185100",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Spiky Shell Koopa King",
+        "Fire-Breathing Castle Boss"
+      ],
+      "keywords": [
+        "bowser",
+        "bowser"
+      ]
+    },
+    {
+      "id": "tm-150",
+      "phrase": "Yoshi",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Nintendo of America Inc.",
+      "serialNumber": "70186334",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Friendly Green Egg Dinosaur",
+        "Island Rideable Critter"
+      ],
+      "keywords": [
+        "yoshi",
+        "yoshi"
+      ]
+    },
+    {
+      "id": "tm-151",
+      "phrase": "Kirby",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Nintendo / HAL Laboratory",
+      "serialNumber": "70187568",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Pink Star Inhaling Hero",
+        "Dream Land Round Mascot"
+      ],
+      "keywords": [
+        "kirby",
+        "kirby"
+      ]
+    },
+    {
+      "id": "tm-152",
+      "phrase": "Animal Crossing",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Nintendo of America Inc.",
+      "serialNumber": "70188802",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Island Life Cozy Simulator",
+        "Village Bell Crafter Game"
+      ],
+      "keywords": [
+        "animal crossing",
+        "animalcrossing"
+      ]
+    },
+    {
+      "id": "tm-153",
+      "phrase": "Tom Nook",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Nintendo of America Inc.",
+      "serialNumber": "70190036",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Island Mortgage Tanuki Merchant",
+        "Cottagecore Bell Collector"
+      ],
+      "keywords": [
+        "tom nook",
+        "tomnook"
+      ]
+    },
+    {
+      "id": "tm-154",
+      "phrase": "Roblox",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Roblox Corporation",
+      "serialNumber": "70191270",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Block Sandbox Metaverse",
+        "User-Generated 3D Worlds"
+      ],
+      "keywords": [
+        "roblox",
+        "roblox"
+      ]
+    },
+    {
+      "id": "tm-155",
+      "phrase": "Minecraft",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Microsoft Corporation",
+      "serialNumber": "70192504",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Voxel Block Crafting Game",
+        "Pixelated Survival Builder"
+      ],
+      "keywords": [
+        "minecraft",
+        "minecraft"
+      ]
+    },
+    {
+      "id": "tm-156",
+      "phrase": "Creeper",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Microsoft Corporation",
+      "serialNumber": "70193738",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Green Exploding Pixel Monster",
+        "Hissing Block Critter"
+      ],
+      "keywords": [
+        "creeper",
+        "creeper"
+      ]
+    },
+    {
+      "id": "tm-157",
+      "phrase": "Fortnite",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Epic Games, Inc.",
+      "serialNumber": "70194972",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Battle Royale Island Dropper",
+        "Victory Royale Storm Game"
+      ],
+      "keywords": [
+        "fortnite",
+        "fortnite"
+      ]
+    },
+    {
+      "id": "tm-158",
+      "phrase": "Call of Duty",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Activision Publishing, Inc.",
+      "serialNumber": "70196206",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Tactical First-Person Shooter",
+        "Modern Warfare Military Combat"
+      ],
+      "keywords": [
+        "call of duty",
+        "callofduty"
+      ]
+    },
+    {
+      "id": "tm-159",
+      "phrase": "PlayStation",
+      "class": "009",
+      "risk": "critical",
+      "owner": "Sony Interactive Entertainment",
+      "serialNumber": "70197440",
+      "description": "Protected intellectual property under USPTO Class 009. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Four Symbol Japanese Console",
+        "DualSense Next-Gen Gaming"
+      ],
+      "keywords": [
+        "playstation",
+        "playstation"
+      ]
+    },
+    {
+      "id": "tm-160",
+      "phrase": "Xbox",
+      "class": "009",
+      "risk": "critical",
+      "owner": "Microsoft Corporation",
+      "serialNumber": "70198674",
+      "description": "Protected intellectual property under USPTO Class 009. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Green X Console Gaming",
+        "Game Pass Digital Library"
+      ],
+      "keywords": [
+        "xbox",
+        "xbox"
+      ]
+    },
+    {
+      "id": "tm-161",
+      "phrase": "Game of Thrones",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Home Box Office, Inc.",
+      "serialNumber": "70199908",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Seven Kingdoms Iron Throne Epic",
+        "Winter Is Coming Fantasy"
+      ],
+      "keywords": [
+        "game of thrones",
+        "gameofthrones"
+      ]
+    },
+    {
+      "id": "tm-162",
+      "phrase": "House of the Dragon",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Home Box Office, Inc.",
+      "serialNumber": "70201142",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Targaryen Dragon Dynasty",
+        "Blood and Fire Fantasy Lore"
+      ],
+      "keywords": [
+        "house of the dragon",
+        "houseofthedragon"
+      ]
+    },
+    {
+      "id": "tm-163",
+      "phrase": "Lord of the Rings",
+      "class": "025",
+      "risk": "critical",
+      "owner": "The Saul Zaentz Company",
+      "serialNumber": "70202376",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Middle Earth Fellowship Epic",
+        "One Ring Fantasy Odyssey"
+      ],
+      "keywords": [
+        "lord of the rings",
+        "lordoftherings"
+      ]
+    },
+    {
+      "id": "tm-164",
+      "phrase": "Hobbit",
+      "class": "025",
+      "risk": "critical",
+      "owner": "The Saul Zaentz Company",
+      "serialNumber": "70203610",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Shire Folk Halfling Adventurer",
+        "Baggins Journey Tale"
+      ],
+      "keywords": [
+        "hobbit",
+        "hobbit"
+      ]
+    },
+    {
+      "id": "tm-165",
+      "phrase": "Doctor Who",
+      "class": "025",
+      "risk": "critical",
+      "owner": "British Broadcasting Corporation",
+      "serialNumber": "70204844",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Time Lord Blue Police Box",
+        "Tardis Time Travel Sci-Fi"
+      ],
+      "keywords": [
+        "doctor who",
+        "doctorwho"
+      ]
+    },
+    {
+      "id": "tm-166",
+      "phrase": "Tardis",
+      "class": "021",
+      "risk": "critical",
+      "owner": "British Broadcasting Corporation",
+      "serialNumber": "70206078",
+      "description": "Protected intellectual property under USPTO Class 021. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Blue Police Telephone Box",
+        "Bigger on the Inside Time Craft"
+      ],
+      "keywords": [
+        "tardis",
+        "tardis"
+      ]
+    },
+    {
+      "id": "tm-167",
+      "phrase": "Sherlock Holmes",
+      "class": "016",
+      "risk": "critical",
+      "owner": "Conan Doyle Estate / Public variations",
+      "serialNumber": "70207312",
+      "description": "Protected intellectual property under USPTO Class 016. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Deerstalker Victorian Detective",
+        "221B Baker Street Sleuth"
+      ],
+      "keywords": [
+        "sherlock holmes",
+        "sherlockholmes"
+      ]
+    },
+    {
+      "id": "tm-168",
+      "phrase": "Batman",
+      "class": "025",
+      "risk": "critical",
+      "owner": "DC Comics",
+      "serialNumber": "70208546",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Gotham Dark Knight Vigilante",
+        "Caped Crusader Bat Hero"
+      ],
+      "keywords": [
+        "batman",
+        "batman"
+      ]
+    },
+    {
+      "id": "tm-169",
+      "phrase": "Superman",
+      "class": "025",
+      "risk": "critical",
+      "owner": "DC Comics",
+      "serialNumber": "70209780",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Man of Steel Metropolis Hero",
+        "Krypton Son S-Shield"
+      ],
+      "keywords": [
+        "superman",
+        "superman"
+      ]
+    },
+    {
+      "id": "tm-170",
+      "phrase": "Wonder Woman",
+      "class": "025",
+      "risk": "critical",
+      "owner": "DC Comics",
+      "serialNumber": "70211014",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Amazonian Warrior Princess",
+        "Golden Lasso Justice Heroine"
+      ],
+      "keywords": [
+        "wonder woman",
+        "wonderwoman"
+      ]
+    },
+    {
+      "id": "tm-171",
+      "phrase": "Spiderman",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Marvel Characters, Inc.",
+      "serialNumber": "70212248",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Web-Slinging Neighborhood Hero",
+        "Arachnid Wall-Crawler"
+      ],
+      "keywords": [
+        "spiderman",
+        "spiderman"
+      ]
+    },
+    {
+      "id": "tm-172",
+      "phrase": "Iron Man",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Marvel Characters, Inc.",
+      "serialNumber": "70213482",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Armored Tech Billionaire Hero",
+        "Arc Reactor Powered Avenger"
+      ],
+      "keywords": [
+        "iron man",
+        "ironman"
+      ]
+    },
+    {
+      "id": "tm-173",
+      "phrase": "Captain America",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Marvel Characters, Inc.",
+      "serialNumber": "70214716",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Star-Spangled Super Soldier",
+        "Vibranium Shield First Avenger"
+      ],
+      "keywords": [
+        "captain america",
+        "captainamerica"
+      ]
+    },
+    {
+      "id": "tm-174",
+      "phrase": "Thor",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Marvel Characters, Inc.",
+      "serialNumber": "70215950",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Norse God of Thunder Hero",
+        "Mjolnir Wielding Warrior"
+      ],
+      "keywords": [
+        "thor",
+        "thor"
+      ]
+    },
+    {
+      "id": "tm-175",
+      "phrase": "Hulk",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Marvel Characters, Inc.",
+      "serialNumber": "70217184",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Gamma-Powered Green Giant",
+        "Unstoppable Smashing Hero"
+      ],
+      "keywords": [
+        "hulk",
+        "hulk"
+      ]
+    },
+    {
+      "id": "tm-176",
+      "phrase": "Black Panther",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Marvel Characters, Inc.",
+      "serialNumber": "70218418",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Wakandan King Vibranium Warrior",
+        "Wakanda Forever Hero"
+      ],
+      "keywords": [
+        "black panther",
+        "blackpanther"
+      ]
+    },
+    {
+      "id": "tm-177",
+      "phrase": "Deadpool",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Marvel Characters, Inc.",
+      "serialNumber": "70219652",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Merc with a Mouth Anti-Hero",
+        "Red Suit Chimichanga Vigilante"
+      ],
+      "keywords": [
+        "deadpool",
+        "deadpool"
+      ]
+    },
+    {
+      "id": "tm-178",
+      "phrase": "Goku",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Toei Animation / Bird Studio",
+      "serialNumber": "70220886",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Super Saiyan Martial Artist",
+        "Orange Gi Kamehameha Fighter"
+      ],
+      "keywords": [
+        "goku",
+        "goku"
+      ]
+    },
+    {
+      "id": "tm-179",
+      "phrase": "Dragon Ball",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Toei Animation / Bird Studio",
+      "serialNumber": "70222120",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Seven Star Wish Sphere Anime",
+        "Saiyan Power Level Saga"
+      ],
+      "keywords": [
+        "dragon ball",
+        "dragonball"
+      ]
+    },
+    {
+      "id": "tm-180",
+      "phrase": "Naruto",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Shueisha / Pierrot Co.",
+      "serialNumber": "70223354",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Hidden Leaf Shinobi Ninja",
+        "Nine-Tails Hokage Fighter"
+      ],
+      "keywords": [
+        "naruto",
+        "naruto"
+      ]
+    },
+    {
+      "id": "tm-181",
+      "phrase": "One Piece",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Shueisha / Toei Animation",
+      "serialNumber": "70224588",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Straw Hat Pirate Adventure",
+        "Grand Line Treasure Voyage"
+      ],
+      "keywords": [
+        "one piece",
+        "onepiece"
+      ]
+    },
+    {
+      "id": "tm-182",
+      "phrase": "Attack on Titan",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Kodansha Ltd.",
+      "serialNumber": "70225822",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Scout Regiment Wings of Freedom",
+        "Walled City Titan Defense"
+      ],
+      "keywords": [
+        "attack on titan",
+        "attackontitan"
+      ]
+    },
+    {
+      "id": "tm-183",
+      "phrase": "Demon Slayer",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Shueisha / Ufotable",
+      "serialNumber": "70227056",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Checkered Haori Swordmaster",
+        "Breathing Style Blade Corp"
+      ],
+      "keywords": [
+        "demon slayer",
+        "demonslayer"
+      ]
+    },
+    {
+      "id": "tm-184",
+      "phrase": "Sailor Moon",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Toei Animation Co., Ltd.",
+      "serialNumber": "70228290",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Pretty Guardian Moon Warrior",
+        "Magical Girl Sailor Tiara"
+      ],
+      "keywords": [
+        "sailor moon",
+        "sailormoon"
+      ]
+    },
+    {
+      "id": "tm-185",
+      "phrase": "Studio Ghibli",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Studio Ghibli Inc.",
+      "serialNumber": "70229524",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Japanese Hand-Drawn Anime Art",
+        "Whimsical Forest Spirit Lore"
+      ],
+      "keywords": [
+        "studio ghibli",
+        "studioghibli"
+      ]
+    },
+    {
+      "id": "tm-186",
+      "phrase": "Totoro",
+      "class": "028",
+      "risk": "critical",
+      "owner": "Studio Ghibli Inc.",
+      "serialNumber": "70230758",
+      "description": "Protected intellectual property under USPTO Class 028. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Giant Forest Spirit Beast",
+        "Rainy Day Bus Stop Creature"
+      ],
+      "keywords": [
+        "totoro",
+        "totoro"
+      ]
+    },
+    {
+      "id": "tm-187",
+      "phrase": "Spirited Away",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Studio Ghibli Inc.",
+      "serialNumber": "70231992",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Bathhouse Spirit Realm Journey",
+        "No-Face Mystical Anime"
+      ],
+      "keywords": [
+        "spirited away",
+        "spiritedaway"
+      ]
+    },
+    {
+      "id": "tm-188",
+      "phrase": "Gotta Catch 'Em All",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Nintendo of America Inc.",
+      "serialNumber": "70233226",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Collect Every Creature",
+        "Master Monster Collector"
+      ],
+      "keywords": [
+        "gotta catch 'em all",
+        "gottacatchemall"
+      ]
+    },
+    {
+      "id": "tm-189",
+      "phrase": "May the Force be with you",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Lucasfilm Ltd. LLC",
+      "serialNumber": "70234460",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Wishing You Mystic Galactic Power",
+        "Walk with the Universal Light"
+      ],
+      "keywords": [
+        "may the force be with you",
+        "maytheforcebewithyou"
+      ]
+    },
+    {
+      "id": "tm-190",
+      "phrase": "I am your Father",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Lucasfilm Ltd. LLC",
+      "serialNumber": "70235694",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Revealing Paternal Space Lineage",
+        "Galactic Family Truth"
+      ],
+      "keywords": [
+        "i am your father",
+        "iamyourfather"
+      ]
+    },
+    {
+      "id": "tm-191",
+      "phrase": "Hakuna Matata",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Disney Enterprises, Inc.",
+      "serialNumber": "70236928",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "No Worries for the Rest of Days",
+        "Worry-Free Philosophy"
+      ],
+      "keywords": [
+        "hakuna matata",
+        "hakunamatata"
+      ]
+    },
+    {
+      "id": "tm-192",
+      "phrase": "To Infinity and Beyond",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Disney Enterprises, Inc.",
+      "serialNumber": "70238162",
+      "description": "Protected intellectual property under USPTO Class 025. Aggressively flagged by trademark filters.",
+      "alternatives": [
+        "Into the Endless Space Cosmos",
+        "Far Beyond the Stars"
+      ],
+      "keywords": [
+        "to infinity and beyond",
+        "toinfinityandbeyond"
+      ]
+    },
+    {
+      "id": "tm-193",
+      "phrase": "Lego Ninjago",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85191478",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Ninjago Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "lego ninjago",
+        "legoninjago"
+      ]
+    },
+    {
+      "id": "tm-194",
+      "phrase": "Hot Pockets",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85192465",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Pockets Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "hot pockets",
+        "hotpockets"
+      ]
+    },
+    {
+      "id": "tm-195",
+      "phrase": "Popsockets",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85193452",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Popsockets Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "popsockets",
+        "popsockets"
+      ]
+    },
+    {
+      "id": "tm-196",
+      "phrase": "Kleenex Box",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85194439",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Box Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "kleenex box",
+        "kleenexbox"
+      ]
+    },
+    {
+      "id": "tm-197",
+      "phrase": "Sharpie Pen",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85195426",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Pen Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "sharpie pen",
+        "sharpiepen"
+      ]
+    },
+    {
+      "id": "tm-198",
+      "phrase": "Sharpie Fine",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85196413",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Fine Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "sharpie fine",
+        "sharpiefine"
+      ]
+    },
+    {
+      "id": "tm-199",
+      "phrase": "Stanley 40 oz",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85197400",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded oz Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "stanley 40 oz",
+        "stanley40oz"
+      ]
+    },
+    {
+      "id": "tm-200",
+      "phrase": "Stanley Straw",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85198387",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Straw Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "stanley straw",
+        "stanleystraw"
+      ]
+    },
+    {
+      "id": "tm-201",
+      "phrase": "Cricut EasyPress",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85199374",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded EasyPress Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "cricut easypress",
+        "cricuteasypress"
+      ]
+    },
+    {
+      "id": "tm-202",
+      "phrase": "Cricut Vinyl",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85200361",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Vinyl Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "cricut vinyl",
+        "cricutvinyl"
+      ]
+    },
+    {
+      "id": "tm-203",
+      "phrase": "Boy Mom Squad",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85201348",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Squad Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "boy mom squad",
+        "boymomsquad"
+      ]
+    },
+    {
+      "id": "tm-204",
+      "phrase": "Girl Mom Life",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85202335",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Life Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "girl mom life",
+        "girlmomlife"
+      ]
+    },
+    {
+      "id": "tm-205",
+      "phrase": "Mama Bear Cubs",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85203322",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Cubs Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "mama bear cubs",
+        "mamabearcubs"
+      ]
+    },
+    {
+      "id": "tm-206",
+      "phrase": "Papa Bear Tribe",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85204309",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Tribe Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "papa bear tribe",
+        "papabeartribe"
+      ]
+    },
+    {
+      "id": "tm-207",
+      "phrase": "Gerber Onesie",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85205296",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Onesie Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "gerber onesie",
+        "gerberonesie"
+      ]
+    },
+    {
+      "id": "tm-208",
+      "phrase": "Swiftie Era",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85206283",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Era Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "swiftie era",
+        "swiftieera"
+      ]
+    },
+    {
+      "id": "tm-209",
+      "phrase": "Barbie Dreamhouse",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85207270",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Dreamhouse Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "barbie dreamhouse",
+        "barbiedreamhouse"
+      ]
+    },
+    {
+      "id": "tm-210",
+      "phrase": "Disney Castle",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85208257",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Castle Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "disney castle",
+        "disneycastle"
+      ]
+    },
+    {
+      "id": "tm-211",
+      "phrase": "Disney Ears",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85209244",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Ears Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "disney ears",
+        "disneyears"
+      ]
+    },
+    {
+      "id": "tm-212",
+      "phrase": "Mickey Bow",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85210231",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Bow Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "mickey bow",
+        "mickeybow"
+      ]
+    },
+    {
+      "id": "tm-213",
+      "phrase": "Minnie Polka Dot",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85211218",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Dot Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "minnie polka dot",
+        "minniepolkadot"
+      ]
+    },
+    {
+      "id": "tm-214",
+      "phrase": "Marvel Avengers",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85212205",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Avengers Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "marvel avengers",
+        "marvelavengers"
+      ]
+    },
+    {
+      "id": "tm-215",
+      "phrase": "Harry Potter Wand",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85213192",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Wand Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "harry potter wand",
+        "harrypotterwand"
+      ]
+    },
+    {
+      "id": "tm-216",
+      "phrase": "Hogwarts House",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85214179",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded House Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "hogwarts house",
+        "hogwartshouse"
+      ]
+    },
+    {
+      "id": "tm-217",
+      "phrase": "Nike Air Force",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85215166",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Force Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "nike air force",
+        "nikeairforce"
+      ]
+    },
+    {
+      "id": "tm-218",
+      "phrase": "Just Do It Swoosh",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85216153",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Swoosh Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "just do it swoosh",
+        "justdoitswoosh"
+      ]
+    },
+    {
+      "id": "tm-219",
+      "phrase": "Super Bowl LVIII",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85217140",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded LVIII Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "super bowl lviii",
+        "superbowllviii"
+      ]
+    },
+    {
+      "id": "tm-220",
+      "phrase": "NFL Sunday",
+      "class": "025",
+      "risk": "critical",
+      "owner": "Registered Brand / Monitored IP",
+      "serialNumber": "85218127",
+      "description": "High-frequency keyword protected under US and international trademark classes.",
+      "alternatives": [
+        "Safe Non-Branded Sunday Alternative",
+        "Independent Artistic Design"
+      ],
+      "keywords": [
+        "nfl sunday",
+        "nflsunday"
+      ]
     }
-  ],
-  "safeSuggestionsRule": {
-    "prefix": ["Artisan", "Handmade", "Custom", "Personalized", "Rustic", "Vintage Style", "Minimalist", "Aesthetic"],
-    "suffix": ["for Gift", "for Her", "for Him", "Home Decor", "Keepsake", "Collector Item", "Handcrafted"]
-  }
+  ]
 }
