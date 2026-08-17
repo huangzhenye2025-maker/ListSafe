@@ -15,8 +15,17 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel, Field
 
-from server.security import WaffoSignatureVerifier, SlidingWindowRateLimiter
-from server.database import LicenseDatabase
+import sys
+# Ensure both server dir and root dir are in python path
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
+try:
+    from server.security import WaffoSignatureVerifier, SlidingWindowRateLimiter
+    from server.database import LicenseDatabase
+except ImportError:
+    from security import WaffoSignatureVerifier, SlidingWindowRateLimiter
+    from database import LicenseDatabase
 
 # Configure logging
 logging.basicConfig(
