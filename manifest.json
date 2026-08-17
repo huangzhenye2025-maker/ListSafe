@@ -42,8 +42,7 @@
         "https://*.myshopify.com/*",
         "https://*.amazon.com/*",
         "http://localhost/*",
-        "http://127.0.0.1/*",
-        "file:///*"
+        "http://127.0.0.1/*"
       ],
       "js": [
         "utils/i18n.js",
